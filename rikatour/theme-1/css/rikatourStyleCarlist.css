@@ -1,0 +1,24 @@
+.inputFilterCarList > input{
+    border-radius: 0%;
+}
+.inputFilterCarList > span{
+    font-size: 25px;
+}
+.buttonProductCarList{
+    border: 1px solid transparent;
+    background-color: #0099cc;
+    padding: 6px 35px;
+    color: #fff;
+    font-size: medium;
+    font-weight: normal;
+}
+.spotBannerCarList{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -30px;
+}
+.spotBannerCarListTextDiv{
+    position: absolute;
+    margin-left: 140px;
+    margin-top: -20px;
+}

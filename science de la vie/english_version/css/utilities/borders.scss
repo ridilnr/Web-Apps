@@ -1,0 +1,139 @@
+/* extra-small */
+@media (max-width: 767px) {
+	.border-md-xs-left {
+		border-left: 1px solid #dee2e6;
+	}
+	.border-md-xs-top {
+		border-top: 1px solid #dee2e6;
+	}
+	.border-md-xs-right {
+		border-right: 1px solid #dee2e6;
+	}
+	.border-md-xs-bottom {
+		border-bottom: 1px solid #dee2e6;
+	}
+}
+
+/* small */
+@media (min-width: 576px) {
+	.border-sm-0 {
+		border: 0 !important;
+	}
+	.border-sm-left-0 {
+		border: 0 !important;
+	}
+	.border-sm-top-0 {
+		border: 0 !important;
+	}
+	.border-sm-right-0 {
+		border: 0 !important;
+	}
+	.border-sm-bottom-0 {
+		border: 0 !important;
+	}
+	.border-sm-left {
+		border-left: 1px solid #dee2e6;
+	}
+	.border-sm-top {
+		border-top: 1px solid #dee2e6;
+	}
+	.border-sm-right {
+		border-right: 1px solid #dee2e6;
+	}
+	.border-sm-bottom {
+		border-bottom: 1px solid #dee2e6;
+	}
+}
+
+/* medium */
+@media (min-width: 768px) {
+	.border-md-0 {
+		border: 0 !important;
+	}
+	.border-md-left-0 {
+		border: 0 !important;
+	}
+	.border-md-top-0 {
+		border: 0 !important;
+	}
+	.border-md-right-0 {
+		border: 0 !important;
+	}
+	.border-md-bottom-0 {
+		border: 0 !important;
+	}
+	.border-md-left {
+		border-left: 1px solid #dee2e6;
+	}
+	.border-md-top {
+		border-top: 1px solid #dee2e6;
+	}
+	.border-md-right {
+		border-right: 1px solid #dee2e6;
+	}
+	.border-md-bottom {
+		border-bottom: 1px solid #dee2e6;
+	}
+}
+
+/* large */
+@media (min-width: 992px) {
+	.border-lg-0 {
+		border: 0 !important;
+	}
+	.border-lg-left-0 {
+		border: 0 !important;
+	}
+	.border-lg-top-0 {
+		border: 0 !important;
+	}
+	.border-lg-right-0 {
+		border: 0 !important;
+	}
+	.border-lg-bottom-0 {
+		border: 0 !important;
+	}
+	.border-lg-left {
+		border-left: 1px solid #dee2e6;
+	}
+	.border-lg-top {
+		border-top: 1px solid #dee2e6;
+	}
+	.border-lg-right {
+		border-right: 1px solid #dee2e6;
+	}
+	.border-lg-bottom {
+		border-bottom: 1px solid #dee2e6;
+	}
+}
+
+/* extra large */
+@media (min-width: 1200px) {
+	.border-xl-0 {
+		border: 0 !important;
+	}
+	.border-xl-left-0 {
+		border: 0 !important;
+	}
+	.border-xl-top-0 {
+		border: 0 !important;
+	}
+	.border-xl-right-0 {
+		border: 0 !important;
+	}
+	.border-xl-bottom-0 {
+		border: 0 !important;
+	}
+	.border-xl-left {
+		border-left: 1px solid #dee2e6;
+	}
+	.border-xl-top {
+		border-top: 1px solid #dee2e6;
+	}
+	.border-xl-right {
+		border-right: 1px solid #dee2e6;
+	}
+	.border-xl-bottom {
+		border-bottom: 1px solid #dee2e6;
+	}
+}

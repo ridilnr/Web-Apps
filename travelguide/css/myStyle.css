@@ -1,0 +1,472 @@
+/*
+------------------------------------ OTHER FILES --------------------------
+ */
+/*
+------------------------------------ ALL TRAVEL GUIDE COLORS --------------------------
+ */
+/*
+------------------------------------ VARIABLES DECLARATION --------------------------
+ */
+/*
+------------------------------------ MIXINS(or FUNCTIONS) --------------------------
+ */
+/*
+------------------------------------ GENERAL STYLE WEB APP --------------------------
+ */
+body {
+  background-image: url("../img/bg.jpg"); }
+
+.colorWhite {
+  color: #fff;
+  cursor: text; }
+
+.transparent {
+  background-color: transparent; }
+
+/*
+------------------------------------ STYLE WEB APP HEADER --------------------------
+ */
+header section {
+  min-height: 85px;
+  background: #007bff;
+  color: #fff; }
+  header section #divMenuIconApp:hover {
+    cursor: pointer; }
+  header section #divTitleApp:hover {
+    cursor: pointer; }
+  header section #divUserPicture > div:last-child #profilePicture {
+    height: 75px;
+    width: 75px; }
+
+header nav menu {
+  height: 55px;
+  background: #fff;
+  color: #007bff;
+  background: transparent;
+  /*.d-flex div:first-child{
+                text-align: center;
+            }*/ }
+  header nav menu > .d-flex {
+    background: transparent;
+    color: #007bff;
+    width: inherit;
+    height: inherit;
+    padding: 10px 50px; }
+    header nav menu > .d-flex:hover, header nav menu > .d-flex.active {
+      background: #3399cc;
+      color: #fff;
+      border: 1px solid #3399cc;
+      border-radius: 5px;
+      cursor: pointer; }
+    header nav menu > .d-flex:hover .item-reply-number {
+      background: #fff;
+      padding: 5px 20px;
+      color: #007bff;
+      border-radius: 15px; }
+      header nav menu > .d-flex:hover .item-reply-number:hover {
+        background: #fff;
+        color: #007bff; }
+    header nav menu > .d-flex #divDisconnect {
+      z-index: 3; }
+      header nav menu > .d-flex #divDisconnect form button {
+        position: absolute;
+        margin-left: -52px;
+        margin-top: 7px;
+        width: 298px;
+        height: 55px;
+        border: 1px solid #3399cc;
+        background: #fff;
+        color: #007bff;
+        font-weight: bold; }
+        header nav menu > .d-flex #divDisconnect form button:hover {
+          cursor: pointer;
+          background: #3399cc;
+          color: #fff;
+          border: 1px solid #fff; }
+  header nav menu .item-reply-number {
+    background: #dc3545;
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 15px; }
+    header nav menu .item-reply-number:hover {
+      background: #dc3545;
+      color: #fff; }
+
+/*
+------------------------------------ STYLE WEB APP MAIN CONTENT--------------------------
+ */
+main {
+  background: rgba(255, 255, 255, 0.5);
+  min-height: 450px;
+  border: 1px solid #868e96; }
+  main .closeMessage:hover {
+    cursor: pointer; }
+  main section {
+    border: 1px solid #868e96;
+    width: 50%; }
+    main section header {
+      background: rgba(153, 153, 153, 0.5);
+      color: #868e96;
+      min-height: 70px;
+      font-size: large; }
+      main section header .stylePostActivity {
+        padding: 15px 50px;
+        cursor: pointer; }
+      main section header .stylePostActivity:hover, main section header .stylePostActivity.active {
+        background: #dc3545;
+        padding: 15px 50px;
+        color: #fff;
+        border-radius: 15px; }
+        main section header .stylePostActivity:hover:hover, main section header .stylePostActivity.active:hover {
+          background: #dc3545;
+          color: #fff; }
+      main section header .stylePostActivity.active {
+        cursor: text; }
+    main section > div {
+      border: 1px solid #868e96;
+      padding: 10px 0; }
+      main section > div div .divMapIcon {
+        color: #dc3545; }
+        main section > div div .divMapIcon:hover {
+          color: #3399cc;
+          cursor: pointer; }
+      main section > div div div .divCommentIcon {
+        color: #dc3545; }
+        main section > div div div .divCommentIcon:hover {
+          color: #3399cc;
+          cursor: pointer; }
+  main #postSection {
+    border: 1px solid #868e96;
+    background: #fff; }
+    main #postSection > div {
+      height: 340px;
+      overflow: auto;
+      border: none; }
+      main #postSection > div > div {
+        border: 1px solid #868e96;
+        padding: 10px 0; }
+        main #postSection > div > div:hover {
+          cursor: pointer; }
+        main #postSection > div > div div .divMapIcon {
+          color: #dc3545;
+          width: 5%; }
+          main #postSection > div > div div .divMapIcon:hover {
+            color: #3399cc;
+            cursor: pointer; }
+        main #postSection > div > div div .column-2 {
+          width: 55%; }
+          main #postSection > div > div div .column-2 > div:first-child {
+            color: #3399cc; }
+        main #postSection > div > div div .column-3 {
+          width: 40%; }
+          main #postSection > div > div div .column-3 .divImagePlace img {
+            height: 100px; }
+  main #activitySection {
+    border: 1px solid #868e96;
+    background: #fff; }
+    main #activitySection > div:nth-child(n+1) {
+      margin-top: 15px; }
+      main #activitySection > div:nth-child(n+1) > div > div > div > div:last-child:hover {
+        cursor: pointer; }
+    main #activitySection #replyActivity #containerReplyActivity > div:last-child {
+      height: 110px;
+      overflow: auto; }
+      main #activitySection #replyActivity #containerReplyActivity > div:last-child > div > div:last-child .column-2 {
+        flex-grow: 2; }
+        main #activitySection #replyActivity #containerReplyActivity > div:last-child > div > div:last-child .column-2 form .deleteReplyBtn button {
+          background: #3399cc;
+          color: #fff;
+          width: 170px;
+          height: inherit;
+          padding: 2px 10px; }
+          main #activitySection #replyActivity #containerReplyActivity > div:last-child > div > div:last-child .column-2 form .deleteReplyBtn button:hover, main #activitySection #replyActivity #containerReplyActivity > div:last-child > div > div:last-child .column-2 form .deleteReplyBtn button.active {
+            background: #dc3545;
+            color: #fff;
+            border: 2px solid #3399cc;
+            border-radius: 5px;
+            cursor: pointer; }
+    main #activitySection #postActivity #containerPostActivity > div:last-child {
+      height: 110px;
+      overflow: auto; }
+      main #activitySection #postActivity #containerPostActivity > div:last-child > div > div:last-child > div .column-2 {
+        flex-grow: 2; }
+        main #activitySection #postActivity #containerPostActivity > div:last-child > div > div:last-child > div .column-2 form .deletePostBtn button {
+          background: #3399cc;
+          color: #fff;
+          width: 170px;
+          height: inherit;
+          padding: 2px 10px; }
+          main #activitySection #postActivity #containerPostActivity > div:last-child > div > div:last-child > div .column-2 form .deletePostBtn button:hover, main #activitySection #postActivity #containerPostActivity > div:last-child > div > div:last-child > div .column-2 form .deletePostBtn button.active {
+            background: #dc3545;
+            color: #fff;
+            border: 2px solid #3399cc;
+            border-radius: 5px;
+            cursor: pointer; }
+    main #activitySection .reply-border {
+      border: 2px dashed #868e96; }
+      main #activitySection .reply-border div div .border-solid {
+        border: 1px solid #868e96;
+        padding: 10px 0; }
+    main #activitySection .post-border {
+      border: 2px solid #868e96; }
+      main #activitySection .post-border div div .border-solid {
+        border: 1px solid #868e96;
+        padding: 10px 0; }
+  main #signupMessage {
+    color: #fff; }
+    main #signupMessage > div > div .closeMessage:hover {
+      cursor: pointer; }
+  main #loginSignupSection section header .styleLoginSignup:hover span {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff; }
+  main #loginSignupSection section #loginForm > div:nth-child(3) > div:nth-child(2) button {
+    background: #3399cc;
+    font-size: large;
+    color: #fff; }
+    main #loginSignupSection section #loginForm > div:nth-child(3) > div:nth-child(2) button:hover {
+      background: transparent;
+      border: 1px solid #868e96;
+      cursor: pointer;
+      color: #868e96; }
+  main #loginSignupSection section #signupForm .example {
+    font-size: small;
+    color: #dc3545; }
+  main #loginSignupSection section #signupForm > div:nth-child(8) > div:nth-child(2) button {
+    background: #3399cc;
+    font-size: large;
+    color: #fff; }
+    main #loginSignupSection section #signupForm > div:nth-child(8) > div:nth-child(2) button:hover {
+      background: transparent;
+      border: 1px solid #868e96;
+      cursor: pointer;
+      color: #868e96; }
+  main #divReplySection #replySection > div {
+    border: none;
+    height: 350px;
+    overflow: auto; }
+    main #divReplySection #replySection > div > div {
+      border: 1px solid #868e96;
+      padding: 10px 0; }
+  main #divReplySection #replySection .mainContainerReply {
+    max-height: 110px;
+    background-color: #fff; }
+    main #divReplySection #replySection .mainContainerReply .first-outer-div .second-outer-div > div:first-child .nameUserReply {
+      background: #e83e8c;
+      padding: 2px 7px;
+      color: #007bff;
+      border-radius: 15px; }
+      main #divReplySection #replySection .mainContainerReply .first-outer-div .second-outer-div > div:first-child .nameUserReply:hover {
+        background: #e83e8c;
+        color: #007bff; }
+    main #divReplySection #replySection .mainContainerReply .first-outer-div .second-outer-div > div:last-child:hover:hover {
+      cursor: pointer; }
+    main #divReplySection #replySection .mainContainerReply .first-outer-div .second-outer-div > div:last-child .container-fluid .divLocationInfo {
+      background: #fff;
+      min-height: 30px;
+      margin-top: -25px;
+      border: 1px solid #868e96; }
+  main #divPostComment #anyUserPostSection {
+    width: 50%; }
+    main #divPostComment #anyUserPostSection header > div #showMapSlide:hover {
+      color: #3399cc; }
+      main #divPostComment #anyUserPostSection header > div #showMapSlide:hover:hover {
+        cursor: pointer; }
+    main #divPostComment #anyUserPostSection header > div #showUpdateSection:hover {
+      color: #3399cc; }
+      main #divPostComment #anyUserPostSection header > div #showUpdateSection:hover:hover {
+        cursor: pointer; }
+    main #divPostComment #anyUserPostSection > div {
+      border: none; }
+      main #divPostComment #anyUserPostSection > div > div:first-child #divContainerSlider #carouselPlaceImage .carousel-inner .carousel-item .carousel-caption {
+        top: -17px; }
+        main #divPostComment #anyUserPostSection > div > div:first-child #divContainerSlider #carouselPlaceImage .carousel-inner .carousel-item .carousel-caption form button {
+          background: transparent;
+          padding: 0px 5px;
+          color: #dc3545;
+          border-radius: 15px;
+          cursor: pointer;
+          border: 1px dotted; }
+          main #divPostComment #anyUserPostSection > div > div:first-child #divContainerSlider #carouselPlaceImage .carousel-inner .carousel-item .carousel-caption form button:hover {
+            background: #dc3545;
+            color: #fff; }
+      main #divPostComment #anyUserPostSection > div > div:first-child #divContainerSlider #carouselPlaceImage .carousel-inner .carousel-item img {
+        height: 250px; }
+      main #divPostComment #anyUserPostSection > div > div:first-child #userPlacePicture {
+        border: 1px solid #868e96; }
+      main #divPostComment #anyUserPostSection > div #containerMap iframe {
+        height: 330px;
+        min-width: 100%;
+        border: none; }
+      main #divPostComment #anyUserPostSection > div #updatePostSection > div {
+        border: 1px solid #868e96;
+        min-height: 320px; }
+        main #divPostComment #anyUserPostSection > div #updatePostSection > div header {
+          color: #868e96;
+          font-weight: bold;
+          min-height: 40px; }
+        main #divPostComment #anyUserPostSection > div #updatePostSection > div #updateMap iframe {
+          height: 230px;
+          min-width: 100%;
+          border: none; }
+        main #divPostComment #anyUserPostSection > div #updatePostSection > div form > div .divEditButton span {
+          color: #3399cc; }
+          main #divPostComment #anyUserPostSection > div #updatePostSection > div form > div .divEditButton span:hover {
+            color: #868e96; }
+            main #divPostComment #anyUserPostSection > div #updatePostSection > div form > div .divEditButton span:hover:hover {
+              cursor: pointer; }
+        main #divPostComment #anyUserPostSection > div #updatePostSection > div form > div:last-child > div:last-child button {
+          background: #3399cc;
+          font-size: large;
+          color: #fff; }
+          main #divPostComment #anyUserPostSection > div #updatePostSection > div form > div:last-child > div:last-child button:hover {
+            background: transparent;
+            border: 1px solid #868e96;
+            cursor: pointer;
+            color: #868e96; }
+  main #divPostComment #anyUserCommentSection {
+    width: 50%; }
+    main #divPostComment #anyUserCommentSection > div {
+      border: none; }
+      main #divPostComment #anyUserCommentSection > div > div {
+        height: 250px;
+        overflow: auto; }
+        main #divPostComment #anyUserCommentSection > div > div .nameUserComment:nth-child(n+1) {
+          margin-top: 10px; }
+        main #divPostComment #anyUserCommentSection > div > div .nameUserComment span {
+          background: #e83e8c;
+          padding: 2px 7px;
+          color: #007bff;
+          border-radius: 15px; }
+          main #divPostComment #anyUserCommentSection > div > div .nameUserComment span:hover {
+            background: #e83e8c;
+            color: #007bff; }
+        main #divPostComment #anyUserCommentSection > div > div .divAllComment {
+          border: 2px dashed gray;
+          border-radius: 5px; }
+          main #divPostComment #anyUserCommentSection > div > div .divAllComment > div > div form .deleteCommentBtn button, main #divPostComment #anyUserCommentSection > div > div .divAllComment > div > div form .deleteReplyBtn button {
+            background: transparent;
+            padding: 0px 5px;
+            color: #dc3545;
+            border-radius: 15px;
+            border: 1px dotted #dc3545;
+            cursor: pointer; }
+            main #divPostComment #anyUserCommentSection > div > div .divAllComment > div > div form .deleteCommentBtn button:hover, main #divPostComment #anyUserCommentSection > div > div .divAllComment > div > div form .deleteReplyBtn button:hover {
+              background: #dc3545;
+              color: #fff; }
+          main #divPostComment #anyUserCommentSection > div > div .divAllComment > div > div .deleteReplyForm {
+            margin-top: 5px; }
+          main #divPostComment #anyUserCommentSection > div > div .divAllComment .divUserNameReply {
+            border: 1px solid gray;
+            border-radius: 5px;
+            background: #fff; }
+            main #divPostComment #anyUserCommentSection > div > div .divAllComment .divUserNameReply:last-child {
+              margin-bottom: 5px; }
+          main #divPostComment #anyUserCommentSection > div > div .divAllComment .divReplyCommentForm form > div .normalButton {
+            border-radius: 10px;
+            border-color: #fff;
+            background: #3399cc;
+            color: #fff;
+            width: 80px;
+            height: inherit;
+            padding: 0px; }
+            main #divPostComment #anyUserCommentSection > div > div .divAllComment .divReplyCommentForm form > div .normalButton:hover, main #divPostComment #anyUserCommentSection > div > div .divAllComment .divReplyCommentForm form > div .normalButton.active {
+              background: #fff;
+              color: #3399cc;
+              border: 1px solid #007bff;
+              border-radius: 10px;
+              cursor: pointer; }
+        main #divPostComment #anyUserCommentSection > div > div .divReplyForm .replyForm .input-group {
+          min-height: 45px; }
+  main #divNewPost #pinSection header {
+    min-height: 50px; }
+  main #divNewPost #pinSection > div {
+    border: none; }
+    main #divNewPost #pinSection > div > div {
+      border: 1px solid #868e96; }
+      main #divNewPost #pinSection > div > div #subTitlePost {
+        background: rgba(153, 153, 153, 0.5);
+        color: #868e96;
+        min-height: 45px;
+        border: 1px solid #868e96; }
+        main #divNewPost #pinSection > div > div #subTitlePost div:first-child {
+          font-size: x-large; }
+      main #divNewPost #pinSection > div > div #mapNewPost iframe {
+        min-height: 300px;
+        min-width: 100%;
+        border: none; }
+    main #divNewPost #pinSection > div form input, main #divNewPost #pinSection > div form textarea {
+      color: #007bff; }
+    main #divNewPost #pinSection > div form #uploadImage input {
+      color: #868e96 !important; }
+    main #divNewPost #pinSection > div form > div:last-child .divSubmitButton button {
+      font-size: large;
+      font-weight: bold;
+      background: #3399cc;
+      color: #fff;
+      width: inherit;
+      height: inherit;
+      padding: 10px 25px; }
+      main #divNewPost #pinSection > div form > div:last-child .divSubmitButton button:hover, main #divNewPost #pinSection > div form > div:last-child .divSubmitButton button.active {
+        background: #dc3545;
+        color: #fff;
+        border: 1px solid #3399cc;
+        border-radius: 5px;
+        cursor: pointer; }
+    main #divNewPost #pinSection > div form > div:last-child .divResetButton button {
+      background: none;
+      border: none;
+      padding: 0;
+      color: #dc3545; }
+      main #divNewPost #pinSection > div form > div:last-child .divResetButton button:hover {
+        color: #3399cc; }
+        main #divNewPost #pinSection > div form > div:last-child .divResetButton button:hover:hover {
+          cursor: pointer; }
+  main #divEditAccountSection #editAccountSection header {
+    min-height: 60px; }
+  main #divEditAccountSection #editAccountSection #editAccountForm .example {
+    font-size: small;
+    color: #dc3545; }
+  main #divEditAccountSection #editAccountSection #editAccountForm > div .divEditButton span {
+    color: #3399cc; }
+    main #divEditAccountSection #editAccountSection #editAccountForm > div .divEditButton span:hover {
+      color: #868e96; }
+      main #divEditAccountSection #editAccountSection #editAccountForm > div .divEditButton span:hover:hover {
+        cursor: pointer; }
+  main #divEditAccountSection #editAccountSection #editAccountForm > div:last-child > div:last-child button {
+    background: #3399cc;
+    font-size: large;
+    color: #fff; }
+    main #divEditAccountSection #editAccountSection #editAccountForm > div:last-child > div:last-child button:hover {
+      background: transparent;
+      border: 1px solid #868e96;
+      cursor: pointer;
+      color: #868e96; }
+
+/*
+------------------------------------ STYLE WEB APP ADD POST BUTTON --------------------------
+ */
+aside div {
+  position: fixed;
+  color: #dc3545; }
+  aside div:hover {
+    color: #3399cc;
+    cursor: pointer; }
+
+aside #divIconDisconnect {
+  margin-left: 0%;
+  margin-top: -5%; }
+
+aside #divIconNewPost {
+  margin-left: 84%;
+  margin-top: -5%; }
+
+/*
+------------------------------------ STYLE WEB APP FOOTER --------------------------
+ */
+footer {
+  background: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px; }

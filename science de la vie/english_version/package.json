@@ -1,0 +1,25 @@
+{
+  "name": "dracula-theme",
+  "version": "1.0.0",
+  "description": "This is a template of dracula-theme for a wonderful web app (e-learning + e-learning)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "start": "lite-server"
+  },
+  "author": "Ridi Luamba",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.4.0"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.1",
+    "bootstrap": "^4.2.1",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.11.0",
+    "onchange": "^5.2.0",
+    "parallelshell": "^3.0.1",
+    "popper.js": "^1.14.7"
+  }
+}

@@ -1,0 +1,172 @@
+.animateBox0, .animateBox1, .animateBox2, .animateBox3, .animateBox4, .animateBox5, .animateBox6, .animateBox7, .animateBox8{
+    visibility: hidden;
+}
+.banertabs{
+    margin-top: 80px;
+}
+.content1{
+    border: 3px ridge #336666;
+    border-radius: 15px;
+    color: #336666;
+    background: rgba(255, 255, 255, 0.5);
+}
+.centerButton{
+    left: -30px;
+}
+.fontSizeLarge{
+    font-size: large;
+}
+.hidden-sm.w-30.padd-15{
+    background: rgba(255, 255, 255, 0.5);
+    color: #336666;
+}
+.underlineContent{
+    border-bottom: 2px solid #336666;
+}
+.textBelowSearch{
+    padding: 20px 0;
+}
+li.active.click-tabs{
+    background-color: #336666;
+}
+.flexBoxCol{
+    display: flex;
+    flex-direction: column;
+}
+.flexBoxRow{
+    display: flex;
+    flex-direction: row;
+}
+.flexBoxRowSpaceBetween{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.justify-content-space-around{
+    justify-content: space-around;
+}
+.w-30{
+    width: 30%;
+}
+.d-block{
+    display: block;
+}
+.d-inline-block{
+    display: inline-block;
+}
+.list-hotel-5 > div{
+    display: inline-block;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+.list-hotel-5 > div > a > span:hover{
+    background-color: rgba(204, 51, 102, 1);
+}
+.word-space-80{
+    word-spacing: 80px;
+}
+.pt-25{
+    padding-top: 25px;
+}
+.pt-40{
+    padding-top: 40px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-25{
+    margin-bottom: 25px;
+}
+.mb-35{
+    margin-bottom: 35px;
+}
+.m0{
+    margin: 0px;
+}
+mt-0{
+    margin-top: 0px;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-40{
+    margin-top: 40px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.p0{
+    padding: 0px;
+}
+.pt-5{
+    padding-top: 5px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.mr-5{
+   margin-right: 5px;
+}
+.p10{
+    padding: 10px;
+}
+.p7{
+    padding: 7px;
+}
+.pb-5{
+    padding-bottom: 5px;
+}
+.borderWhite{
+    border: 1px solid #fff;
+}
+#decorDiv{
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+.type-1 > a{
+    font-weight: bold !important;
+}
+.whiteColor{
+    color: #fff;
+}
+.darkGreenColor{
+    color: #336666;
+}
+.whiteBackGround{
+    background-color: #fff;
+}
+.swiper-wrapper{
+}
+.roseBackground1{
+    background-color: rgba(204, 51, 102, 0.6);
+}
+.divBrochure{
+    background-color: #cc3366;
+    width: 188px;
+    text-align: center;
+    margin: -.5rem 0 1rem .8rem;
+}
+.width-75{
+    width: 75%;
+}
+.titleSeparator1{
+    border: 2px solid #fff;
+    margin: 5px 0 5px 0;
+}
+.titleSeparator2{
+    border: 1px solid #fff;
+    margin: 5px 0 5px 0;
+    width: 32rem;
+}
+.titleSeparator3{
+    border: 2px solid #fff;
+    margin: 5px 0 5px 0;
+    width: 10rem;
+}

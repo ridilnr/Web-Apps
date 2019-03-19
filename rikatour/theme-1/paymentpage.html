@@ -1,0 +1,548 @@
+<!doctype html>
+<html class="no-js" lang="TR">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Rikatour - Payment Page</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" href="http://www.rikasoft.com/img/favicon.ico">
+
+    <!-- HTML 5 BoilerTemplate css link files -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Bootstrap 4 css link files -->
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap-grid.min.css">
+
+    <!-- Font-Awesome 4.7.0 css link file -->
+    <link rel="stylesheet" href="fontAwesome/css/font-awesome.min.css">
+
+    <!-- Rikatour css link file -->
+    <link rel="stylesheet" href="css/rikatourStyleResponsiveExtraSmall.css">
+    <link rel="stylesheet" href="css/rikatourStyleResponsiveSmall.css">
+    <link rel="stylesheet" href="css/rikatourStyleResponsiveMedium.css">
+    <link rel="stylesheet" href="css/rikatourStyleResponsiveLarge.css">
+    <link rel="stylesheet" href="css/rikatourStyleResponsiveExtraLarge.css">
+    <link rel="stylesheet" href="css/rikatourStyleHotellist.css">
+    <link rel="stylesheet" href="css/rikatourStyleEHRC.css">
+    <link rel="stylesheet" href="css/rikatourStyleSamplePage.css">
+    <link rel="stylesheet" href="css/rikatourStyleContact.css">
+    <link rel="stylesheet" href="css/rikatourStylePP.css">
+
+</head>
+<body class="container">
+<div id="bodyCover" class="row">
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+    <!-- Header of the page -->
+    <header class="container">
+        <!-- Fake menu of the page -->
+        <section class="row HeaderSectionMenu">
+            <!-- Optional Parameters -->
+            <div class="col-md-5 optionalElement">
+                <div class="optionalElementDiv">
+                    <span> <i class="fa fa-user" aria-hidden="true"></i> &nbsp; HO&Scedil; GELD&Idot;N MURAT</span>
+                </div>
+                <div class="optionalElementDiv">
+                    <span> <i class="fa fa-caret-down" aria-hidden="true"></i>&nbsp; TURKISH</span>
+                </div>
+                <div class="optionalElementDiv">
+                    <span> <i class="fa fa-caret-down" aria-hidden="true"></i>&nbsp; TL (<i class="fa fa-try" aria-hidden="true"></i>)</span>
+                </div>
+            </div>
+            <!-- Layout Purpose-->
+            <div class="col-md-2">
+
+            </div>
+            <!-- Social Icons -->
+            <div class="col-md-5 socialIcon socialIconSmall">
+                <div class="socialIconDiv">
+                    <span class="fafafacebook"> <i class="fa fa-facebook" aria-hidden="true"></i> </span>
+                </div>
+                <div class="socialIconDiv">
+                    <span class="fafatwitter"> <i class="fa fa-twitter" aria-hidden="true"></i> </span>
+                </div>
+                <div class="socialIconDiv">
+                    <span class="fafacameraretro"> <i class="fa fa-camera-retro" aria-hidden="true"></i> </span>
+                </div>
+                <div class="socialIconDiv">
+                    <span class="fafayoutubeplay"> <i class="fa fa-youtube-play" aria-hidden="true"></i> </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Menu of the page for small and Medium Screen -->
+        <nav class="row HeaderMenu2 navbar navbar-toggleable-sm">
+            <div id="smallMedium" class="container-fluid" style="color: black">
+                <div class="logoMargin2">
+                    <a href="index.html"><img class="logo-header" src="img/logo-rikatour.png" alt=""/></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavbarSmallMedium">
+                    <span><i class="fa fa-bars fa-2x"></i></span>
+                </button>
+                <div class="collapse navbar-collapse mt-3" id="NavbarSmallMedium">
+                    <ul class="navbar-nav text-center">
+                        <li class="nav-item active">
+                            <a href="index.html" title="" class="nav-link active">
+                                <span><i class="fa fa-home fa-2x" aria-hidden="true"></i></span>
+                                <span>&nbsp; Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="hotellist.html" title="" class="nav-link">
+                                <span><i class="fa fa-bed fa-2x" aria-hidden="true"></i></span>
+                                <span>&nbsp; Hotel List</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="hoteldetail.html" title="" class="nav-link">
+                                <span><i class="fa fa-plane fa-2x" aria-hidden="true"></i></span>
+                                <span>&nbsp; Hotel Detail</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="carlist.html" title="" class="nav-link">
+                                <span><i class="fa fa-car fa-2x" aria-hidden="true"></i></span>
+                                <span>&nbsp; Car List</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="samplepage.html" title="" class="nav-link">
+                                <span><i class="fa fa-globe fa-2x" aria-hidden="true"></i></span>
+                                <span>&nbsp; Sample Page</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" title="" class="nav-link">
+                                <span><i class="fa fa-exchange fa-2x" aria-hidden="true"></i></span>
+                                <span>&nbsp; Contact</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" title="" class="linkMenu2 nav-link">
+                                <div class="Menu7">
+                                    <span><i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i></span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main menu of the page for Large and Extra Large Screen -->
+        <nav class="row HeaderMenu">
+            <div class="col-md-4">
+                <a href="index.html"><img src="img/logo-rikatour.png" alt=""/></a>
+            </div>
+            <div class="col-md-8 HeaderMenuIcon text-center">
+                <div class="Menu1">
+                    <a href="index.html" title="" class="linkMenu1">
+                        <span><i class="fa fa-home fa-2x" aria-hidden="true"></i></span>
+                        <br>
+                        <span>Home</span>
+                    </a>
+                </div>
+                <div class="Menu2">
+                    <a href="hotellist.html" title="" class="linkMenu2">
+                        <span><i class="fa fa-bed fa-2x" aria-hidden="true"></i></span>
+                        <br>
+                        <span>Hotel List</span>
+                    </a>
+                </div>
+                <div class="Menu3">
+                    <a href="hoteldetail.html" title="" class="linkMenu3">
+                        <span><i class="fa fa-plane fa-2x" aria-hidden="true"></i></span>
+                        <br>
+                        <span>Hotel Detail</span>
+                    </a>
+                </div>
+                <div class="Menu4">
+                    <a href="carlist.html" title="" class="linkMenu4">
+                        <span><i class="fa fa-car fa-2x" aria-hidden="true"></i></span>
+                        <br>
+                        <span>Car List</span>
+                    </a>
+                </div>
+                <div class="Menu5">
+                    <a href="samplepage.html" title="" class="linkMenu5">
+                        <span><i class="fa fa-globe fa-2x" aria-hidden="true"></i></span>
+                        <br>
+                        <span>Sample Page</span>
+                    </a>
+                </div>
+                <div class="Menu6">
+                    <a href="contact.html" title="" class="linkMenu6">
+                        <span><i class="fa fa-exchange fa-2x" aria-hidden="true"></i></span>
+                        <br>
+                        <span>Contact</span>
+                    </a>
+                </div>
+                <a href="#" title="" >
+                    <div class="Menu7">
+                        <div>
+                            <span>5</span>
+                        </div>
+                        <span><i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i></span>
+                    </div>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content of the page -->
+    <main class="container-fluid pb-5">
+        <!-- Header of the page -->
+        <div class="row HeaderHotelList">
+            <header class="container-fluid text-center">
+                <div class="contentEHRC pt-2 pb-2">
+                    <span><i class="fa fa-shopping-cart fa-2x pr-3" aria-hidden="true"></i></span>
+                    <span class="paymentPageTitle">Payment Page</span>
+                </div>
+            </header>
+        </div>
+        <header class="row">
+            <div class="container">
+                <div class="headerLeftHL pull-left pt-3">
+                    <span class="subtitleContent pl-2">1-List Page</span>
+                    <span class="subtitleContent"> > </span>
+                    <span class="subtitleContent">2-Detail Page</span>
+                    <span class="subtitleContent"> > </span>
+                    <span class="subtitleContent">3-Payment Page</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Content Left Menu -->
+        <section class="row pt-md-3">
+            <div class="col-md-9">
+                <!-- SECTION ONE -->
+                <div class="row pl-md-3 pr-md-3">
+                    <div class="row pl-2">
+                        <div class="container">
+                            <div class="col-md-12 pt-3 containerList greyColor whiteBackgroundColor">
+                                <div id="" class="pt-2">
+                                    <div id="tablePayment" class="listEHRCLeft pl-md-3">
+                                        <h3 class="text-left maroonColor boldWeight">MY CART</h3>
+                                        <div id="headerTablePayment" class="text-right pr-5">
+                                            <span class="pr-4 maroonColor">PRICE</span>
+                                        </div>
+                                        <hr class="separatorHeader ml-5">
+                                        <div id="bodyTablePayment">
+                                            <div class="bodyTablePaymentRow d-flex flex-row justify-content-between pr-5 pl-5">
+                                                <span class="d-block">Room Half Pansion</span>
+                                                <span class="d-block">2 Person Adult 25 day</span>
+                                                <span class="d-block pr-4">369 €</span>
+                                            </div>
+                                            <hr class="separatorBodyRow ml-5">
+                                            <div class="bodyTablePaymentRow d-flex flex-row justify-content-between pr-5 pl-5">
+                                                <span class="d-block">Car Rental Ford Kuga</span>
+                                                <span class="d-block">1 Person 25 day</span>
+                                                <span class="d-block pr-4">589 €</span>
+                                            </div>
+                                            <hr class="separatorBodyRow ml-5">
+                                            <div class="pb-4">
+                                                &nbsp;
+                                            </div>
+                                            <hr class="separatorFooter ml-5">
+                                            <div class="footerTablePayment d-flex flex-row justify-content-between pr-5 pl-5 maroonColor">
+                                                <span class="d-block">Grand Total</span>
+                                                <span class="d-block">&nbsp;</span>
+                                                <span class="d-block pr-4">999 €</span>
+                                            </div>
+                                        </div>
+                                        <hr class="separatorFooter ml-5">
+                                    </div>
+                                    <div class="pb-4">
+                                        &nbsp;
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SECTION TWO -->
+                <div class="row pt-3 pl-2" id="sectionForm">
+                    <div class="container">
+                        <div class="col-md-1">
+                            &nbsp;
+                        </div>
+                        <div class="col-md-11 whiteBackgroundColor pr-5">
+                            <h3 class="text-left maroonColor boldWeight pt-4 pl-4 titlePaymentForm">PAYMENT METHOD</h3>
+                            <div id="paymentFormDiv" class="d-flex flex-row justify-content-between">
+                                <form action="#" method="post" class="pt-2 pb-5 paymentForm">
+                                    <div class="form-group pt-4">
+                                        <input type="text" pattern="[A-Za-z]" class="form-control pl-4 inputElement" id="" aria-describedby="name" placeholder="Ad Soyad">
+                                    </div>
+                                    <div class="form-group pt-2">
+                                        <input type="tel" pattern="[0-9]" class="form-control pl-4 inputElement" id="" aria-describedby="cardNumber" placeholder="Card Number">
+                                    </div>
+                                    <div class="form-group input-group pt-2 expiryDateIconStyle">
+                                        <input type="text" class="form-control inputElement" placeholder="Expiry Date" aria-describedby="basic-addon1">
+                                        <span class="input-group-addon" id="basic-addon1"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                                    </div>
+                                    <div class="form-group pt-2">
+                                        <input type="" pattern="[0-9]{3}" class="form-control pl-4 inputElement" id="" aria-describedby="cvvNumber" placeholder="CVV Number">
+                                    </div>
+                                    <div class="text-right pb-5 pt-4">
+                                        <button type="submit" class="buttonFormPayment pt-2 pb-1">
+                                            <i class="fa fa-lock fa-2x" aria-hidden="true"></i>
+                                            <span class="pl-5 pr-5 textPaymentButton">PAYMENT</span>
+                                        </button>
+                                    </div>
+                                </form>
+                                <div class="pt-5 pr-5">
+                                    <img class="pt-5 pr-5" src="img/main/Credicard.png" alt="" title="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pb-5">
+                </div>
+            </div>
+            <aside class="col-md-3 whiteBackgroundColor asideEHRC">
+                <div class="row pl-2 pr-2">
+                    <div class="col-md-12">
+                        <div class="text-left pb-md-3 pt-md-3">
+                            <span class="maroonColor fontTextLeft">Hotels</span>
+                        </div>
+                        <div class="alignLeft imgLeft">
+                            <img src="img/slider/thumbnail/hotelDetailThumbail2.png" alt="" title="">
+                        </div>
+                        <div class="alignRight textImgLeft text-center">
+                            <span class="greyColor">LOREM IPSUM DENE...</span><br>
+                            <span class="">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row pl-2 pr-2">
+                    <div class="col-md-12">
+                        <div class="alignLeft imgLeft">
+                            <img src="img/slider/thumbnail/hotelDetailThumbail2.png" alt="" title="">
+                        </div>
+                        <div class="alignRight textImgLeft text-center">
+                            <span class="greyColor">LOREM IPSUM DENE...</span><br>
+                            <span class="">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row pl-2 pr-2">
+                    <div class="col-md-12">
+                        <div class="alignLeft imgLeft">
+                            <img src="img/slider/thumbnail/hotelDetailThumbail2.png" alt="" title="">
+                        </div>
+                        <div class="alignRight textImgLeft text-center">
+                            <span class="greyColor">LOREM IPSUM DENE...</span><br>
+                            <span class="">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row pl-2 pr-2">
+                    <div class="col-md-12">
+                        <div class="alignLeft imgLeft">
+                            <img src="img/slider/thumbnail/hotelDetailThumbail2.png" alt="" title="">
+                        </div>
+                        <div class="alignRight textImgLeft text-center">
+                            <span class="greyColor">LOREM IPSUM DENE...</span><br>
+                            <span class="">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row pl-2 pr-2">
+                    <div class="col-md-12">
+                        <div class="alignLeft imgLeft">
+                            <img src="img/slider/thumbnail/hotelDetailThumbail2.png" alt="" title="">
+                        </div>
+                        <div class="alignRight textImgLeft text-center">
+                            <span class="greyColor">LOREM IPSUM DENE...</span><br>
+                            <span class="">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row pl-2 pr-2">
+                    <div class="col-md-12">
+                        <div class="text-left pb-md-4 pt-md-2">
+                            <span class="maroonColor fontTextLeft">Lorem Ipsum</span>
+                        </div>
+                        <div class="text-center imgLeft">
+                            <img src="img/slider/thumbnail/hotelDetailThumbail3.png" alt="" title="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row pl-2 pr-2 pb-2 pt-4">
+                    <div class="col-md-12">
+                        <div class="alignLeft imgLeft">
+                            <img src="img/slider/thumbnail/hotelDetailThumbail2.png" alt="" title="">
+                        </div>
+                        <div class="d-flex pl-2">
+                            <span class="greyColor">Lorem ipsum dolor sit amet</span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row pl-2 pr-2 pb-2">
+                    <div class="col-md-12">
+                        <div class="alignLeft imgLeft">
+                            <img src="img/slider/thumbnail/hotelDetailThumbail2.png" alt="" title="">
+                        </div>
+                        <div class="d-flex pl-2">
+                            <span class="greyColor">Lorem ipsum dolor sit amet</span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+            </aside>
+        </section>
+    </main>
+
+
+
+
+
+    <div class="container" id="asideFooter">
+        &nbsp;
+    </div>
+    <!-- Footer of the page -->
+    <footer class="container">
+        <div class="row otherInfo">
+            <div class="otherInfoItem">
+                <h3><span>Lorem Ipsum</span></h3>
+                <p>
+                    <a href="#"><span>Dolor Sit Amet,</span></a><br>
+                    <a href="#"><span>Edipis Cing Edip</span></a><br>
+                    <a href="#"><span>Sed Du Eusmod</span></a><br>
+                    <a href="#"><span>Sed Du Eusmod</span></a><br>
+                    <a href="#"><span>Sepurami Incididunt</span></a><br>
+                    <a href="#"><span>Edipis Cing Edip</span></a><br>
+                    <a href="#"><span>Sed Du Eusmod Asher</span></a><br>
+                    <a href="#"><span>Edipis Cing Epjy</span></a><br>
+                    <a href="#"><span>Skrp Du Mursp Eruilp</span></a>
+                </p>
+            </div>
+            <div class="otherInfoItem">
+                <h3><span>Sit Amet</span></h3>
+                <p>
+                    <a href="#"><span>Dolor Sit Amet,</span></a><br>
+                    <a href="#"><span>Edipis Cing Edip</span></a><br>
+                    <a href="#"><span>Sed Du Eusmod</span></a><br>
+                    <a href="#"><span>Sepurami Incididunt</span></a><br>
+                    <a href="#"><span>Edipis Cing Edip</span></a><br>
+                    <a href="#"><span>Sed Du Eusmod Asher</span></a><br>
+                    <a href="#"><span>Edipis Cing Epjy</span></a><br>
+                    <a href="#"><span>Mimi Du Mursp Eruilp</span></a>
+                </p>
+            </div>
+            <div class="otherInfoItem">
+                <h3><span>Dolor Hohomi</span></h3>
+                <p>
+                    <a href="#"><span>Dolor Sit Amet,</span></a><br>
+                    <a href="#"><span>Edipis Cing Edip</span></a><br>
+                    <a href="#"><span>Sed Du Eusmod</span></a><br>
+                    <a href="#"><span>Sepurami Incididunt</span></a><br>
+                    <a href="#"><span>Edipis Cing Edip</span></a><br>
+                    <a href="#"><span>Sed Du Eusmod Asher</span></a><br>
+                    <a href="#"><span>Edipis Cing Epjy</span></a><br>
+                    <a href="#"><span>Lulu Du Mursp Eruilp</span></a>
+                </p>
+            </div>
+            <div class="otherInfoItem">
+                <h3><span>Kurumsal</span></h3>
+                <p>
+                    <a href="#"><span>Hakkımızda</span></a><br>
+                    <a href="#"><span>Blogumuz</span></a><br>
+                    <a href="#"><span><a href="#">Bize Ulaşın</span></a><br>
+                <h3><a href="#"><span><a href="#">444 0 123</a></span></a></h3>
+                <a href="#" class="emmail"><span>info@rikatour.com</span></a><br>
+                <a href="#"><img src="img/logo-rikatour.png"></a>
+                </p>
+            </div>
+        </div>
+        <div class="row footerRow2">
+            <div class="container">
+                <!-- Copyright Parameters -->
+                <div class="col-md-5 footerText pull-left">
+                    <span> &copy; 2017 Tüm hakları saklıdır. Tasarım ve yazılım: </span>
+                    <img src="img/logo-rikatour-footer.png" alt="" title="">
+                </div>
+                <!-- Layout Purpose-->
+                <div class="col-md-2">
+
+                </div>
+                <!-- Social Icons -->
+                <div class="col-md-5 socialIcon footerIcon">
+                    <div class="socialIconDiv">
+                        <span class="fafafacebook"> <i class="fa fa-facebook" aria-hidden="true"></i> </span>
+                    </div>
+                    <div class="socialIconDiv">
+                        <span class="fafatwitter"> <i class="fa fa-twitter" aria-hidden="true"></i> </span>
+                    </div>
+                    <div class="socialIconDiv">
+                        <span class="fafacameraretro"> <i class="fa fa-camera-retro" aria-hidden="true"></i> </span>
+                    </div>
+                    <div class="socialIconDiv">
+                        <span class="fafayoutubeplay"> <i class="fa fa-youtube-play" aria-hidden="true"></i> </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Bootstrap 4 js link file -->
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+        ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</div>
+</body>
+</html>

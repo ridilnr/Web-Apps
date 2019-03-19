@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+</head>
+<body>
+<h1>THIS PAGE GET THE VALUE IN  LOCAL STORAGE AND DISPLAY IT</h1>
+<div>
+    <h2></h2>
+</div>
+<script>
+    function loadDoc() {
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState === 4 && this.status === 200) {
+                document.getElementById("demo").innerHTML = this.responseText;
+            }
+        };
+        xhttp.open("GET", "demo_get.asp", true);
+        xhttp.send();
+    }
+</script>
+</body>
+</html>

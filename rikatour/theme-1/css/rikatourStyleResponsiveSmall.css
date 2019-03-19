@@ -1,0 +1,562 @@
+@media (min-width: 576px) and (max-width: 767px) {
+    /*--------------------------------- General Style ------------------------------*/
+    body{
+        background-image: url("../img/main/backgroundBodyImage.png");
+    }
+    #bodyCover{
+        margin: 10px auto;
+        color: #fff;
+        font-size: small;
+        font-weight: bold;
+        font-family: "Myriad Pro";
+    }
+    /*--------------------------------- Header Style ------------------------------*/
+    .HeaderSectionMenu{
+        background-color: #0099cc;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .optionalElement{
+        display: flex;
+        flex-direction: row;
+    }
+    .decorLarge{
+        display: none;
+        width: 0;
+    }
+    .HeaderMenuIcon{
+        display: flex;
+        flex-direction: row;
+    }
+    .optionalElementDiv:nth-child(2), .optionalElementDiv:last-child{
+        margin-left: 10px;
+    }
+    .optionalElementDiv{
+        padding: 10px 10px;
+        max-height: 40px;
+    }
+    .optionalElementDiv:first-child, .optionalElementDiv:hover, .btn.btnSpot2:hover{
+        background: #ff6633;
+    }
+    .socialIcon{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .socialIconDiv{
+        padding: 10px 5px;
+    }
+    .fa.fa-facebook, .fa.fa-twitter, .fa.fa-camera-retro, .fa.fa-youtube-play{
+        color: #0099cc;
+    }
+    .fafafacebook:hover i, .fafatwitter:hover i, .fafayoutubeplay:hover i, .fafacameraretro:hover i{
+        color: #fff;
+    }
+    .fafafacebook, .fafatwitter, .fafayoutubeplay, .fafacameraretro{
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    .fafafacebook{
+        padding: 7px 10px;
+    }
+    .fafatwitter{
+        padding: 7px 8px;
+    }
+    .fafacameraretro{
+        padding: 7px 8px;
+    }
+    .fafayoutubeplay{
+        padding: 7px 8px;
+    }
+    .fafafacebook:hover, .fafatwitter:hover, .fafayoutubeplay:hover, .fafacameraretro:hover{
+        background-color: #0099cc;
+        border: 1px solid #fff;
+    }
+    .FormAndMenu{
+        background-color: #0099cc;
+    }
+
+    .Menu1, .Menu2, .Menu3, .Menu4, .Menu5, .Menu6{
+        color: #0099cc;
+    }
+    .blueColor{
+        color: #0099cc;
+    }
+    .HeaderMenu{
+        background-color: #fff;
+        padding: 25px 13px;
+    }
+    .HeaderMenu2{
+        background-color: #fff;
+        padding: 10px 5px;
+    }
+    .otherInfoItem > p a:hover, .emmail:hover{
+        color: #0099cc;
+    }
+    .linkMenu1.active, .linkMenu2.active, .linkMenu3.active, .linkMenu4.active, .linkMenu5.active, .linkMenu6.active, .Menu7{
+        color: #ff6633;
+    }
+    .linkMenu1:hover, .linkMenu2:hover, .linkMenu3:hover, .linkMenu4:hover, .linkMenu5:hover, .linkMenu6:hover{
+        color: #ff6633;
+    }
+    .optionalElementDivLink1, .optionalElementDivLink2, .optionalElementDivLink3, .optionalElementDiv:hover a{
+        color: #fff;
+    }
+    a, a:hover{
+        text-decoration: none;
+        color: inherit;
+    }
+    .Menu7 > div{
+        background-color: #0099cc;
+        position: absolute;
+        top: -5px;
+        padding: 0 7px;
+        border-radius: 50%;
+        margin-left: 32px;
+        font-size: medium;
+        color: #fff;
+    }
+    .Menu7 span{
+        font-weight: bold;
+        font-size: medium;
+    }
+    /*--------------------------------- Main Content Style ------------------------------*/
+    #mainContent{
+        /*background: url('../img/main/HeaderBodyImage.png') no-repeat;*/
+        background-size: contain;
+    }
+    .EllipsisShape > span > i{
+        color: #ffffff;
+    }
+    .EllipsisShape{
+        background-color: #999999;
+        border: 5px solid #ffffff;
+        border-radius: 50%;
+        width: 110px;
+        height: 110px;
+        padding-top: 15px;
+        text-align: center;
+    }
+    .EllipsisShape span:last-child{
+        color: #fff;
+        font-size: small;
+        font-weight: bold;
+    }
+    .belowMenu{
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+
+    .EllipsisShape.Ellipsis1, .EllipsisShape:hover{
+        background-color: #0099cc;
+    }
+
+    .Ellipsis1, .Ellipsis2, .Ellipsis3{
+        margin-top: 130px;
+    }
+    .Ellipsis4, .Ellipsis5, .Ellipsis6{
+        margin-top: 30px;
+    }
+    .iconBody{
+        color: #ffffff;
+    }
+    /*--------------------------------- Search Section Style ------------------------------*/
+    #searchSection{
+        background: url('../img/main/SearchBackgroungImageSmall.png') no-repeat;
+        position: relative;
+        bottom: 57px;
+        min-height: 820px;
+    }
+
+    #secondaryMenu{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    #InformationSection{
+        margin-top: -65px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #inputGroup{
+        margin-top: 15px;
+    }
+    #inputGroup, .input-group span i{
+        color: #fff;
+    }
+    #inputGroup .form-group{
+        margin-left: 45px;
+    }
+    #containerRowHotel{
+        width: 100% !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .detailHotel{
+        background-color: #fff;
+        padding: 15px;
+    }
+    .detailHotel .hotelSubtitle1, .detailHotel p, .hotelSubtitle2 span:last-child{
+        color: #999999;
+    }
+    .hotelSubtitle{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .hotelSubtitleDiscount > div > a, .input-group span, .Ellipsis6{
+        background-color: #ff6633;
+    }
+    .detailHotel h5, .hotelSubtitleDiscount div:last-child span:first-child{
+        color: #ff6633;
+    }
+    .hotelSubtitle1{
+    }
+    .hotelSubtitle1 span, .numberBed span, .hotelSubtitle2 span:last-child{
+        font-size: small;
+    }
+    .hotelSubtitle1 a{
+        background-color: #0099cc;
+        color: #fff;
+        padding: 5px 15px;
+    }
+    .hotelSubtitle1 a:hover{
+        background-color: #ff6633;
+    }
+    .hotelSubtitle1Link{
+        padding-top: 10px;
+    }
+    .hotelSubtitle2{
+    }
+    .hotelSubtitle2 span:first-child{
+        color: #0099cc;
+        font-weight: bold;
+    }
+    .fa.fa-star{
+        color: #ffcc33;
+    }
+    .flexItem img{
+        width: 100%;
+    }
+    #rowHotel1{
+        margin-right: -20px;
+        margin-left: -20px;
+    }
+    .flexItem{
+        padding: 15px 0 15px 0;
+    }
+    /*--------------------------------- Footer Style ------------------------------*/
+    footer{
+        background-color: #fff;
+        margin-top: -80px;
+        padding-top: 15px;
+    }
+    #asideFooter{
+        background: url('../img/main/footerBackgroundImageMedium.png') no-repeat;
+        margin-top: -140px;
+        padding-top: 60px;
+    }
+    .flexFooter{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 50px;
+    }
+    .footerRow2{
+        background-color: #0099cc;
+        padding: 10px 15px;
+        max-height: 100px;
+    }
+    .footerIcon{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    .footerIcon .socialIconDiv{
+        margin-left: 20px;
+    }
+    .footerIcon .socialIconDiv:last-child{
+        margin-right: 20px;
+    }
+    .footerText{
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    #asideContainer{
+        background: url('../img/main/asideBackgroundImageSmall.png') no-repeat;
+        min-height: 1115px;
+        margin-top: 50px;
+        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
+    }
+    .asideColMd4{
+        margin-top: 35px;
+        margin-left: 30px;
+    }
+    .otherInfo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: 40px;
+    }
+    .otherInfoItem{
+        flex: 0 0 40%;
+        max-width: 40;
+        color: #ff6633;
+    }
+    .footer-logo{
+        width: 130px;
+    }
+    .otherInfoItem > h3{
+        color: #0099cc;
+    }
+    /*
+    --------------------------------- Aside Style ------------------------------
+     */
+    .imgSlide2{
+        border: 5px solid #fff;
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+    }
+    .imgSlide3{
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+    }
+    .imgSlide3:hover{
+        background-color: #0099cc;
+        opacity: 0.5;
+    }
+    #slide2{
+        margin-top: 20px;
+    }
+    .linkCarouselNext1 > span i{
+        color: #ffcc33;
+    }
+    .linkCarouselNext1 > span i{
+        margin-left: 50px;
+    }
+    .linkCarouselPrevious1 > span i{
+        margin-left: 80px;
+    }
+    .linkCarouselPrevious1 > span i{
+        color: #ffcc33;
+    }
+    .linkCarouselNext2{
+        margin-right: 10px;
+    }
+    .linkCarouselPrevious2{
+        margin-left: 100px;
+    }
+    .linkCarouselNext2 > span i{
+        color: #ff6633;
+    }
+    .linkCarouselPrevious2 > span i{
+        color: #ff6633;
+    }
+    .slide2Item{
+        padding-left: 120px;
+    }
+    #slide1{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #slide1, #slide2{
+        margin-left: -40px;
+    }
+    .itemSlide1IdCol11{
+        flex: 0 0 4%;
+        max-width: 4%;
+    }
+    .itemSlide1IdCol12{
+        flex: 0 0 6%;
+        max-width: 6%;
+    }
+
+    #itemSlide1Id .col-md-3{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 70px;
+        margin-left: 40px;
+    }
+    #itemSlide2Id .col-md-3{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 70px;
+    }
+    .slide2Div{
+        margin-left: 50px;
+    }
+    .spotBanner1 img{
+        margin-top: -90px;
+        margin-left: 150px;
+    }
+    #spotBanner2 img{
+        margin-top: -65px;
+        margin-left: 115px;
+        height: 50px;
+    }
+    #spotBanner3 img{
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 410px;
+        z-index: 1111;
+    }
+    .priceSpot{
+        margin-top: -95px;
+        margin-left: 220px;
+        font-size: x-large;
+        width: 80px;
+    }
+    .priceSpot2{
+        margin-top: -55px;
+        margin-left: 135px;
+        font-size: 1rem;
+    }
+    .priceSpot3{
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 430px;
+        z-index: 1111;
+    }
+    .slider2ButtonDiv{
+        margin-top: 30px;
+
+    }
+    .slider2ButtonDiv a span i{
+        float: left;
+    }
+    .Slider2ColMd7{
+        margin-left: 10px;
+        flex: 0 0 85%;
+        max-width: 85%;
+    }
+    .contentSpot{
+        margin-top: 20px;
+    }
+    .contentSpot h3{
+        color: #ffcc33;
+    }
+    .contentSpot > h3 > span{
+        font-size: large;
+    }
+    .hoverImage:hover{
+        cursor: pointer;
+    }
+    .titleSlide1Div > h2{
+        margin: 100px 0 0 30px;
+    }
+    .carousel-item1, .carousel-item2{
+        margin-top: -50px;
+    }
+    .titleSlide1{
+        color: #ff6633;
+        text-align: center;
+        width: 100%;
+    }
+    .titleSlide2{
+        color: #ff6633;
+        text-align: center;
+        width: 100%;
+        margin: 25px 0 0 50px;
+    }
+    .whiteColorText{
+        color: #fff;
+    }
+    .btnSpot {
+        width: 100%;
+        background: url("../img/slider/buttonBackground.png") no-repeat center;
+        height: 60px;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 15px;
+    }
+    .btnSpot2 {
+        width: 100%;
+        background: url("../img/slider/buttonBackground2.png") no-repeat center;
+        height: 35px;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 15px;
+    }
+    .btnSpot2 > span > i{
+        margin-left: 15px;
+    }
+    .buttonProductCarList:hover{
+        background-color: #ff6633;
+        color: #fff;
+    }
+    .btn.btnSpot:hover{
+        background: #0099cc;
+    }
+    .fontMedium{
+        font-size: medium;
+    }
+    .blueBack, #NavbarSmallMedium{
+        background-color: #0099cc;
+    }
+    .fontLarge{
+        font-size: large;
+    }
+    .HeaderMenu{
+        display: none;
+    }
+    .nav-item.active, .nav-item:hover, .navbar-toggler{
+        background: #ff6633;
+    }
+    .nav-item{
+        border-top: 1px solid #fff;
+    }
+    .nav-link span, .navbar-toggler{
+        color: #fff;
+    }
+    .nav-link span:last-child{
+        font-size: large;
+    }
+    .col-md-3.form-group{
+        margin-top: 20px;
+        flex: 0 0 85%;
+        max-width: 85%;
+    }
+    .inputGroupCol41{
+        flex: 0 0 85%;
+        max-width: 85%;
+        margin: 20px 0 0 50px;
+    }
+    .inputGroupCol41 > div .col-md-6{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .inputGroupCol42{
+        flex: 0 0 85%;
+        max-width: 85%;
+        margin: 40px 0 0 50px;
+    }
+    .inputGroupCol42 > div .col-md-4{
+        flex: 0 0 33.33333%;
+        max-width: 33.33333%;
+    }
+    .contentSpot > p{
+        text-align: justify;
+    }
+    .socialIconSmall{
+        display: none;
+    }
+    .hideSmall{
+        display: none;
+    }
+}

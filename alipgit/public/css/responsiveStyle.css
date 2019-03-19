@@ -1,0 +1,233 @@
+.pad-xs-8{
+    padding-left:66.66666667%
+}
+
+.rowSizeKid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#rowSizeColOne > select{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100%;
+}
+
+#filter3{
+    padding: auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-inline > div:last-child{
+    padding-top: 10px;
+}
+
+.form-inline > div > div{
+    margin-top: 25px;
+}
+
+.form-inline label{
+    padding-right: 10px;
+}
+
+.productQtyInput{
+    width: 4em !important;
+    min-height: 30px !important;
+}
+/*Social Media Icon Style*/
+.thumbnails{
+    display: flex;
+    flex-direction: row;
+}
+.thumbnails > li img{
+    max-height: 64px;
+}
+
+@media (min-width:768px) {
+    .pad-sm-10{
+        padding-left:83.33333333%
+    }
+    #rowSizeColOne > select{
+        min-width: 100%;
+    }
+}
+
+@media (min-width:992px) {
+    .pad-md-5{
+        padding-left:41.66666667%
+    }
+    #rowSizeColOne > select{
+        min-width: 110%;
+        margin-left: 0;
+    }
+}
+
+@media (min-width:1200px) {
+    #rowSizeColOne > select{
+        min-width: 103% !important;
+        margin-left: 5px;
+    }
+}
+
+
+@media (max-width: 991px) {
+    .rowSize, .rowColor{
+        display: flex;
+        flex-direction: column;
+    }
+    #rowSizeColOne, #rowSizeColTwo, #rowColorColOne, #rowColorColTwo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #rowColorColOne{
+        max-width: 100%;
+    }
+    #filter3, #filter3 > .row{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .main-content{
+        clear: right;
+        margin: 10px auto;
+    }
+    .form-inline{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .form-inline > div{
+        display: flex;
+        flex-direction: row;
+    }
+    .form-inline > div > div:nth-child(n+2){
+        margin-left: 25px;
+    }
+    /*Social Media Icon Style*/
+    .thumbnails{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .thumbnails > li img{
+        max-height: 56px;
+    }
+    /* */
+    .productAllInfo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 979px) {
+    .flex-container.flexContainerUpdate{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .controls{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    h4.title{
+        text-align: center;
+    }
+    .span1.editButton{
+        margin-left: 10px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    #containerFilter{
+        padding-left: 0;
+    }
+    .rowColor, .rowSize{
+        display: block;
+        text-align: center;
+    }
+    #rowSizeColOne, #rowSizeColTwo, #rowColorColOne, #rowColorColTwo{
+        display: inline-block;
+    }
+    #form1 input{
+        min-width: 215px;
+    }
+    /*Social Media Icon Style*/
+    .thumbnails{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .thumbnails > li img{
+        max-height: 48px;
+    }
+}
+
+@media (max-width: 492px) {
+    #filter3, #filter3 > .row{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .searchButton{
+        text-align: center;
+    }
+    /*Social Media Icon Style*/
+    .thumbnails{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .thumbnails > li img{
+        max-height: 40px;
+    }
+}
+
+@media (max-width: 415px) {
+    .user-menu li.btnContainer{
+        margin-top: 10px;
+    }
+    .search_form.searchBar input{
+        display: block;
+    }
+    .search_form.searchBar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .search_form.searchBar input[type="submit"]{
+        margin-top: 10px;
+        width: 115px;
+        line-height: 35px;
+    }
+    .form-inline > div{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-inline > div > div{
+        margin-top: 10px;
+    }
+    .form-inline > div > div:nth-child(n+2){
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 400px) {
+    #form1 input{
+        min-width: 165px;
+    }
+}
+
+@media (max-width: 330px) {
+    #form1 input{
+        min-width: 135px;
+    }
+}

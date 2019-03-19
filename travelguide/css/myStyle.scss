@@ -1,0 +1,715 @@
+/*
+------------------------------------ OTHER FILES --------------------------
+ */
+
+@import "myColor";
+
+/*
+------------------------------------ VARIABLES DECLARATION --------------------------
+ */
+
+
+/*
+------------------------------------ MIXINS(or FUNCTIONS) --------------------------
+ */
+
+@mixin background-blue-text-white{
+    background: $colorBlue;
+    color: $colorWhite;
+}
+
+@mixin general-style-button($bgNoHover, $bgHover, $textNoHover, $textHover, $border, $borderRadius, $width:inherit, $height:inherit, $padding:inherit){
+    background: $bgNoHover;
+    color: $textNoHover;
+    width: $width;
+    height: $height;
+    padding: $padding;
+    &:hover, &.active{
+        background: $bgHover;
+        color: $textHover;
+        border: $border;
+        border-radius: $borderRadius;
+        cursor: pointer;
+    }
+}
+
+@mixin notification-button($bgNoHover, $bgHover, $padding, $colorNoHover, $colorHover, $borderRadius) {
+    background: $bgNoHover;
+    padding: $padding;
+    color: $colorNoHover;
+    border-radius: 15px;
+    &:hover{
+        background: $bgHover;
+        color: $colorHover;
+    }
+}
+
+@mixin background-white-text-blue{
+    background: $colorWhite;
+    color: $colorBlue;
+}
+
+@mixin  background-lightGray-text-gray{
+    background: rgba(153, 153, 153, 0.5);
+    color: $colorGray;
+}
+
+@mixin background-red-text-white{
+    background: $colorBlue;
+    color: $colorWhite;
+}
+
+@mixin color-icons{
+    color: $colorRed;
+    &:hover{
+        color: $colorMenu;
+        cursor: pointer;
+    }
+}
+@mixin border-activity($style1: dashed, $style2: solid){
+    border: 2px $style1 $colorGray;
+    div{
+        div{
+            .border-solid{
+                border: 1px $style2 $colorGray;
+                padding: 10px 0;
+            }
+        }
+    }
+}
+@mixin  cursor-pointer{
+    &:hover{
+        cursor: pointer;
+    }
+}
+@mixin special-button{
+    button{
+        background: $colorMenu;
+        font-size: large;
+        color: $colorWhite;
+        &:hover{
+            background: transparent;
+            border: 1px solid $colorGray;
+            cursor: pointer;
+            color: $colorGray;
+        }
+    }
+}
+/*
+------------------------------------ GENERAL STYLE WEB APP --------------------------
+ */
+body{
+    background-image: url("../img/bg.jpg");
+}
+.colorWhite{
+    color: $colorWhite;
+    cursor: text;
+}
+.transparent{
+    background-color: transparent;
+}
+/*
+------------------------------------ STYLE WEB APP HEADER --------------------------
+ */
+header{
+    section{
+        min-height: 85px;
+        @include background-blue-text-white;
+        #divMenuIconApp{
+            @include cursor-pointer;
+        }
+        #divTitleApp{
+            @include cursor-pointer;
+        }
+        #divUserPicture{
+            & > div:last-child{
+                #profilePicture{
+                    height: 75px;
+                    width: 75px;
+                }
+            }
+        }
+    }
+    nav{
+        menu{
+            height: 55px;
+            @include background-white-text-blue;
+            background: transparent;
+            & > .d-flex{
+                @include general-style-button(transparent, $colorMenu, $colorBlue, $colorWhite, 1px solid $colorMenu, 5px, inherit, inherit, 10px 50px);
+                &:hover{
+                    .item-reply-number{
+                        @include notification-button($colorWhite, $colorWhite, 5px 20px, $colorBlue, $colorBlue, 15px);
+                    }
+                }
+                #divItemSetting{
+                }
+                #divDisconnect{
+                    z-index: 3;
+                    form{
+                        button{
+                            position: absolute;
+                            margin-left: -52px;
+                            margin-top: 7px;
+                            width: 298px;
+                            height: 55px;
+                            border: 1px solid $colorMenu;
+                            background: $colorWhite;
+                            color: $colorBlue;
+                            font-weight: bold;
+                            &:hover{
+                                cursor: pointer;
+                                background: $colorMenu;
+                                color: $colorWhite;
+                                border: 1px solid $colorWhite;
+                            }
+                        }
+                    }
+                }
+            }
+            /*.d-flex div:first-child{
+                text-align: center;
+            }*/
+            .item-home{
+                //@include general-style-button($colorWhite, $colorMenu, $colorBlue, $colorWhite, 1px solid $colorMenu, 5px, inherit, inherit, 10px 50px);
+            }
+            .item-reply{
+            }
+            .item-reply-number{
+                @include notification-button($colorRed, $colorRed, 5px 15px, $colorWhite, $colorWhite, 15px);
+            }
+            .item-setting{
+
+            }
+            .item-setting-icon{
+
+            }
+        }
+    }
+}
+
+/*
+------------------------------------ STYLE WEB APP MAIN CONTENT--------------------------
+ */
+main{
+    .closeMessage:hover{
+        cursor: pointer;
+    }
+    background: rgba(255, 255, 255, 0.5);
+    min-height: 450px;
+    border: 1px solid $colorGray;
+    section{
+        border: 1px solid $colorGray;
+        width: 50%;
+        header{
+            @include background-lightGray-text-gray;
+            min-height: 70px;
+            font-size: large;
+            .stylePostActivity{
+                padding: 15px 50px;
+                cursor: pointer;
+            }
+            .stylePostActivity:hover, .stylePostActivity.active{
+                @include notification-button($colorRed, $colorRed, 15px 50px, $colorWhite, $colorWhite, 1px)
+            }
+            .stylePostActivity.active{
+                cursor: text;
+            }
+        }
+        & > div{
+            border: 1px solid $colorGray;
+            padding: 10px 0;
+            div{
+                .divMapIcon{
+                    @include color-icons;
+                }
+                div{
+                    .divCommentIcon{
+                        @include color-icons;
+                    }
+                }
+            }
+        }
+    }
+    #postSection{
+        border: 1px solid $colorGray;
+        background: $colorWhite;
+        & > div{
+            height: 340px;
+            overflow: auto;
+            border: none;
+            & > div{
+                @include cursor-pointer;
+                border: 1px solid $colorGray;
+                padding: 10px 0;
+                div{
+                    .divMapIcon{
+                        @include color-icons;
+                        width: 5%;
+                    }
+                    .column-2{
+                        width: 55%;
+                        & > div:first-child{
+                            color: $colorMenu;
+                        }
+                    }
+                    .column-3{
+                        width: 40%;
+                        .divImagePlace{
+                            img{
+                                height: 100px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    #activitySection{
+        border: 1px solid $colorGray;
+        background: $colorWhite;
+        & > div:nth-child(n+1){
+        margin-top: 15px;
+        & > div{
+            & > div{
+                & > div{
+                    & > div:last-child{
+                        @include cursor-pointer;
+                    }
+                }
+            }
+        }
+    }
+        #replyActivity{
+            #containerReplyActivity{
+                & > div:last-child{
+                    height: 110px;
+                    overflow: auto;
+                    & > div{
+                        & > div:last-child{
+                            .column-1{
+                                //width: 50px;
+                            }
+                            .column-2{
+                                //width: 300px;
+                                flex-grow: 2;
+                                form{
+                                    .deleteReplyBtn{
+                                        button{
+                                            @include general-style-button($colorMenu, $colorRed, $colorWhite, $colorWhite, 2px solid $colorMenu, 5px, 170px, inherit, 2px 10px);
+                                        }
+                                    }
+                                }
+                            }
+                            .column-3{
+                                //width: 100px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #postActivity{
+            #containerPostActivity{
+                & > div:last-child{
+                    height: 110px;
+                    overflow: auto;
+                    & > div{
+                        & > div:last-child{
+                            & > div{
+                                .column-1{
+                                    //width: 5%;
+                                }
+                                .column-2{
+                                    flex-grow: 2;
+                                    form{
+                                        .deletePostBtn{
+                                            button{
+                                                @include general-style-button($colorMenu, $colorRed, $colorWhite, $colorWhite, 2px solid $colorMenu, 5px, 170px, inherit, 2px 10px);
+                                            }
+                                        }
+                                    }
+                                }
+                                .column-3{
+                                    //width: 40%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .reply-border{
+            @include border-activity();
+        }
+        .post-border{
+            @include border-activity(solid, solid);
+        }
+    }
+    #signupMessage{
+      color: $colorWhite;
+        & > div{
+            & > div{
+                .closeMessage{
+                    @include cursor-pointer;
+                }
+            }
+        }
+    }
+    #loginSignupSection{
+        section{
+            header{
+                .styleLoginSignup:hover{
+                    span{
+                        text-decoration: underline;
+                        cursor: pointer;
+                        color: $colorWhite;
+                    }
+                }
+            }
+            #loginForm{
+                & > div:nth-child(3){
+                    & > div:nth-child(1){
+
+                    }
+                    & > div:nth-child(2){
+                        @include special-button;
+                    }
+                    & > div:nth-child(3){
+
+                    }
+                }
+            }
+
+            #signupForm{
+                .example{
+                    font-size: small;
+                    color: $colorRed;
+                }
+                & > div:nth-child(8){
+                    & > div:nth-child(1){
+
+                    }
+                    & > div:nth-child(2){
+                        @include special-button;
+                    }
+                    & > div:nth-child(3){
+
+                    }
+                }
+            }
+        }
+    }
+    #divReplySection{
+        #replySection{
+            & > div{
+                border: none;
+                height: 350px;
+                overflow: auto;
+                & > div{
+                    border: 1px solid $colorGray;
+                    padding: 10px 0;
+                }
+
+            }
+            .mainContainerReply{
+                max-height: 110px;
+                background-color: $colorWhite;
+                .first-outer-div{
+                    .second-outer-div{
+                        & > div:first-child{
+                            .nameUserReply{
+                                @include notification-button($colorPink, $colorPink, 2px 7px, $colorPrimary, $colorPrimary, 5px);
+                            }
+                        }
+                        & > div:last-child{
+                            &:hover{
+                                @include cursor-pointer;
+                            }
+                            .container-fluid{
+                                .divLocationInfo{
+                                    background: $colorWhite;
+                                    //position: absolute;
+                                    min-height: 30px;
+                                    margin-top: -25px;
+                                    border: 1px solid $colorGray;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #divPostComment{
+        #anyUserPostSection{
+            width: 50%;
+            header{
+                & > div{
+                    #showMapSlide:hover{
+                        @include cursor-pointer;
+                        color: $colorMenu;
+                    }
+                    #showUpdateSection:hover{
+                        @include cursor-pointer;
+                        color: $colorMenu;
+                    }
+                }
+            }
+            & > div{
+                border: none;
+                & > div:first-child{
+                    #divContainerSlider{
+                        #carouselPlaceImage{
+                            .carousel-inner{
+                                .carousel-item{
+                                    .carousel-caption{
+                                        top: -17px;
+                                        form{
+                                            button{
+                                                @include notification-button(transparent, $colorRed, 0px 5px, $colorRed, $colorWhite, 5px);
+                                                cursor: pointer;
+                                                border: 1px dotted;
+                                            }
+                                        }
+                                    }
+                                    img{
+                                        height: 250px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    #userPlacePicture{
+                        border: 1px solid $colorGray;
+                    }
+                }
+                #containerMap{
+                    iframe{
+                        height: 330px;
+                        min-width: 100%;
+                        border: none;
+                    }
+                }
+				#updatePostSection{
+                    & > div{
+                        border: 1px solid $colorGray;
+                        min-height: 320px;
+                        header{
+                            color: $colorGray;
+                            font-weight: bold;
+                            min-height: 40px;
+                        }
+                        #updateMap{
+                            iframe{
+                                height: 230px;
+                                min-width: 100%;
+                                border: none;
+                            }
+                        }
+                        form{
+                            & > div{
+                                .divEditButton{
+                                    span{
+                                        color: $colorMenu;
+                                        &:hover{
+                                            color: $colorGray;
+                                            @include cursor-pointer;
+                                        }
+                                    }
+                                }
+                            }
+                            & > div:last-child{
+                                & > div:last-child{
+                                    @include special-button;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #anyUserCommentSection{
+            width: 50%;
+            & > div{
+                border: none;
+                & > div{
+                    height: 250px;
+                    overflow: auto;
+                    .nameUserComment{
+                        &:nth-child(n+1){
+                            margin-top: 10px;
+                        }
+                        span{
+                            @include notification-button($colorPink, $colorPink, 2px 7px, $colorPrimary, $colorPrimary, 5px);
+                        }
+                    }
+                    .divAllComment{
+                        border: 2px dashed gray;
+                        border-radius: 5px;
+                        & > div{
+                            & > div{
+                                form{
+                                    .deleteCommentBtn, .deleteReplyBtn{
+                                        button{
+                                            @include notification-button(transparent, $colorRed, 0px 5px, $colorRed, $colorWhite, 5px);
+                                            border: 1px dotted $colorRed;
+                                            cursor: pointer;
+                                        }
+                                    }
+                                }
+                                .deleteReplyForm{
+                                    margin-top: 5px;
+                                }
+                            }
+                        }
+                        .divUserNameReply{
+                            border: 1px solid gray;
+                            border-radius: 5px;
+                            background: $colorWhite;
+                            &:last-child{
+                                margin-bottom: 5px;
+                            }
+                        }
+                        .divReplyCommentForm{
+                            form{
+                                & > div{
+                                    .normalButton{
+                                        border-radius: 10px;
+                                        border-color: $colorWhite;
+                                        @include general-style-button($colorMenu, $colorWhite, $colorWhite, $colorMenu, 1px solid $colorBlue, 10px, 80px, inherit, 0px);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .divReplyForm{
+                        .replyForm{
+                            .input-group{
+                                min-height: 45px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #divNewPost{
+        #pinSection{
+            header{
+                min-height: 50px;
+            }
+            & > div{
+                border: none;
+                & > div{
+                    border: 1px solid $colorGray;
+                    #subTitlePost{
+                        background: rgba(153, 153, 153, 0.5);
+                        color: #868e96;
+                        min-height: 45px;
+                        border: 1px solid $colorGray;
+                        div:first-child{
+                            font-size: x-large;
+                        }
+                    }
+                    #mapNewPost{
+                        iframe{
+                            min-height: 300px;
+                            min-width: 100%;
+                            border: none;
+                        }
+                    }
+                }
+                form{
+                    input, textarea{
+                        color: $colorPrimary;
+                    }
+                    #uploadImage{
+                        input{
+                            color: $colorGray !important;
+                        }
+                    }
+                    & > div:last-child{
+                        .divSubmitButton{
+                            button{
+                                font-size: large;
+                                font-weight: bold;
+                                @include general-style-button($colorMenu, $colorDanger, $colorWhite, $colorWhite, 1px solid $colorMenu, 5px, inherit, inherit, 10px 25px);
+                            }
+                        }
+                        .divResetButton{
+                            button{
+                                background: none;
+                                border: none;
+                                padding: 0;
+                                color: $colorDanger;
+                                &:hover{
+                                    color: $colorMenu;
+                                    @include  cursor-pointer
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #divEditAccountSection{
+        #editAccountSection{
+            header{
+                min-height: 60px;
+            }
+            #editAccountForm{
+                .example{
+                    font-size: small;
+                    color: $colorRed;
+                }
+                & > div{
+                    .divEditButton{
+                        span{
+                            color: $colorMenu;
+                            &:hover{
+                                color: $colorGray;
+                                @include cursor-pointer;
+                            }
+                        }
+                    }
+                }
+                & > div:last-child{
+                    & > div:last-child{
+                        @include special-button;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*
+------------------------------------ STYLE WEB APP ADD POST BUTTON --------------------------
+ */
+aside{
+    div{
+      position: fixed;
+      @include color-icons;
+    }
+    #divIconDisconnect{
+        margin-left: 0%;
+        margin-top: -5%;
+    }
+    #divIconNewPost{
+        margin-left: 84%;
+        margin-top: -5%;
+    }
+}
+
+/*
+------------------------------------ STYLE WEB APP FOOTER --------------------------
+ */
+footer{
+    @include background-blue-text-white;
+    border: 1px solid $colorBlue;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

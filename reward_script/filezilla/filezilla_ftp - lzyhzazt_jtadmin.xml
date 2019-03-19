@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="true"?>
+<FileZilla3>
+    <Servers>
+        <Server>
+            <Host>web13.anaxanet.com</Host>
+            <Port>21</Port>
+            <Protocol>0</Protocol>
+            <Type>0</Type>
+            <User>lzyhzazt_jtadmin</User>
+            <Pass encoding="base64">S2t0YzAwMDAxMSM=</Pass>
+            <Logontype>1</Logontype>
+            <TimezoneOffset>0</TimezoneOffset>
+            <PasvMode>MODE_DEFAULT</PasvMode>
+            <MaximumMultipleConnections>10</MaximumMultipleConnections>
+            <EncodingType>Auto</EncodingType>
+            <BypassProxy>0</BypassProxy>
+            <Name>lzyhzazt_jtadmin - web13.anaxanet.com</Name>
+            <Comments>Software Developer</Comments>
+            <LocalDir/>
+            <RemoteDir/>
+            <SyncBrowsing>0</SyncBrowsing>
+            web13.anaxanet.com
+        </Server>
+    </Servers>
+</FileZilla3>
+Kktc000011#

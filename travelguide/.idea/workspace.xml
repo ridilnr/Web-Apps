@@ -1,0 +1,653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/reloadpage.php" description="function compareSessionDatabase(){" line="24" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f73886ef-7841-4bfa-9794-3736bf3f0c42" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/realapplocalbackup.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/refresh.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/reloadpage.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/comment/functions.php" afterPath="$PROJECT_DIR$/comment/functions.php" />
+      <change beforePath="$PROJECT_DIR$/css/myStyle.css" afterPath="$PROJECT_DIR$/css/myStyle.css" />
+      <change beforePath="$PROJECT_DIR$/css/myStyle.scss" afterPath="$PROJECT_DIR$/css/myStyle.scss" />
+      <change beforePath="$PROJECT_DIR$/dbconect/User.php" afterPath="$PROJECT_DIR$/dbconect/User.php" />
+      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" afterPath="$PROJECT_DIR$/js/index.js" />
+      <change beforePath="$PROJECT_DIR$/js/realapp.js" afterPath="$PROJECT_DIR$/js/realapp.js" />
+      <change beforePath="$PROJECT_DIR$/map/map1.php" afterPath="$PROJECT_DIR$/map/map1.php" />
+      <change beforePath="$PROJECT_DIR$/map/map2.php" afterPath="$PROJECT_DIR$/map/map2.php" />
+      <change beforePath="$PROJECT_DIR$/map/phpjsonmap.php" afterPath="$PROJECT_DIR$/map/phpjsonmap.php" />
+      <change beforePath="$PROJECT_DIR$/map/phpsqlinfo_addrow.php" afterPath="$PROJECT_DIR$/map/phpsqlinfo_addrow.php" />
+      <change beforePath="$PROJECT_DIR$/phpfiles/checkstatus.php" afterPath="$PROJECT_DIR$/phpfiles/checkstatus.php" />
+      <change beforePath="$PROJECT_DIR$/phpfiles/signup.php" afterPath="$PROJECT_DIR$/phpfiles/signup.php" />
+      <change beforePath="$PROJECT_DIR$/phpfiles/update.php" afterPath="$PROJECT_DIR$/phpfiles/update.php" />
+      <change beforePath="$PROJECT_DIR$/realapp.php" afterPath="$PROJECT_DIR$/realapp.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="61" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+              <folding>
+                <marker date="1515490700607" expanded="true" signature="3776:4062" ph="..." />
+                <marker date="1515490700607" expanded="true" signature="3897:4024" ph="..." />
+                <marker date="1515490700607" expanded="true" signature="4293:4606" ph="..." />
+                <marker date="1515490700607" expanded="true" signature="4424:4568" ph="..." />
+                <marker date="1515490700607" expanded="true" signature="4962:5104" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1207">
+              <caret line="71" column="1" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="71" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9401">
+              <caret line="553" column="0" lean-forward="false" selection-start-line="549" selection-start-column="0" selection-end-line="553" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="realapp.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/realapp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="884" column="0" lean-forward="false" selection-start-line="869" selection-start-column="0" selection-end-line="884" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myStyle.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/myStyle.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2091">
+              <caret line="123" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="realapp.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/realapp.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10081">
+              <caret line="593" column="1" lean-forward="false" selection-start-line="580" selection-start-column="0" selection-end-line="593" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>divMainBodyApp</find>
+      <find>height</find>
+      <find>anyUserCommentSection</find>
+      <find>divMainBodyApp.style.minHeight = &quot;calc(40vw)&quot;;</find>
+      <find>divMain</find>
+      <find>divIconNewPost</find>
+      <find>fa fa-plus-circle fa-5x</find>
+      <find>aside</find>
+      <find>disconn</find>
+      <find>divDisconnect</find>
+      <find>accountSer</find>
+      <find>discon</find>
+      <find>divItemSetting</find>
+      <find>avatar</find>
+      <find>files</find>
+      <find>$name</find>
+      <find>id=&quot;profilePicture&quot;</find>
+      <find>signupA</find>
+      <find>signupAvatar</find>
+      <find>signup</find>
+      <find>divUserPicture</find>
+      <find>signupForm</find>
+      <find>editAccountForm</find>
+      <find>edit</find>
+      <find>linkSetting</find>
+      <find>inputUpdateUser</find>
+      <find>divMenuIconApp</find>
+      <find>img-</find>
+      <find>divTitleApp</find>
+      <find>New</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>edit</replace>
+      <replace>linkReply</replace>
+      <replace>localStorage.setItem(&quot;allPostId&quot;,</replace>
+      <replace>localStorage.setItem(&quot;currentPostId&quot;,</replace>
+      <replace>numComment</replace>
+      <replace>newArrayNumTuple</replace>
+      <replace>(&quot;disabled&quot;, &quot;disabled&quot;)</replace>
+      <replace>divMainBodyApp.style.minHeight = (screen.height - 230) + &quot;px&quot;;</replace>
+      <replace>320</replace>
+      <replace>divMainBodyApp.style.minHeight = (screen.height - 320) + &quot;px&quot;;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/map.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Android/includes/Constants.php" />
+        <option value="$PROJECT_DIR$/dbconect/Image.php" />
+        <option value="$PROJECT_DIR$/phpsqlinfo_addrow.php" />
+        <option value="$PROJECT_DIR$/map1.php" />
+        <option value="$PROJECT_DIR$/map2.php" />
+        <option value="$PROJECT_DIR$/phpjsonmap.php" />
+        <option value="$PROJECT_DIR$/map/mappoint.xml" />
+        <option value="$PROJECT_DIR$/Android/includes/DbOperations.php" />
+        <option value="$PROJECT_DIR$/Android/v1/userLogin.php" />
+        <option value="$PROJECT_DIR$/phpfiles/logout.php" />
+        <option value="$PROJECT_DIR$/dbconect/Comment.php" />
+        <option value="$PROJECT_DIR$/dbconect/Reply.php" />
+        <option value="$PROJECT_DIR$/phpfiles/set_id.php" />
+        <option value="$PROJECT_DIR$/map/index.php" />
+        <option value="$PROJECT_DIR$/map/map1.php" />
+        <option value="$PROJECT_DIR$/map/map2.php" />
+        <option value="$PROJECT_DIR$/map/phpsqlinfo_addrow.php" />
+        <option value="$PROJECT_DIR$/dbconect/Place.php" />
+        <option value="$PROJECT_DIR$/map/phpjsonmap.php" />
+        <option value="$PROJECT_DIR$/Android/v1/Api.php" />
+        <option value="$PROJECT_DIR$/dbconect/Connect.php" />
+        <option value="$PROJECT_DIR$/css/map.css" />
+        <option value="$PROJECT_DIR$/phpfiles/fillForm.php" />
+        <option value="$USER_HOME$/Desktop/test/test.html" />
+        <option value="$PROJECT_DIR$/refresh.php" />
+        <option value="$PROJECT_DIR$/js/realapplocalbackup.js" />
+        <option value="$PROJECT_DIR$/reload.php" />
+        <option value="$USER_HOME$/Desktop/index.js" />
+        <option value="$PROJECT_DIR$/reloadpage.php" />
+        <option value="$USER_HOME$/Desktop/reloadpage.php" />
+        <option value="$PROJECT_DIR$/comment/functions.php" />
+        <option value="$PROJECT_DIR$/dbconect/User.php" />
+        <option value="$PROJECT_DIR$/phpfiles/signup.php" />
+        <option value="$PROJECT_DIR$/phpfiles/login.php" />
+        <option value="$PROJECT_DIR$/phpfiles/checkstatus.php" />
+        <option value="$USER_HOME$/Desktop/checkstatus.php" />
+        <option value="$USER_HOME$/Desktop/signup.php" />
+        <option value="$PROJECT_DIR$/phpfiles/update.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$USER_HOME$/Desktop/index.php" />
+        <option value="$PROJECT_DIR$/css/myStyle.scss" />
+        <option value="$PROJECT_DIR$/js/realapp.js" />
+        <option value="$USER_HOME$/Desktop/realapp.js" />
+        <option value="$USER_HOME$/Desktop/update.php" />
+        <option value="$USER_HOME$/Desktop/User.php" />
+        <option value="$PROJECT_DIR$/../travelguideonline/realapp.php" />
+        <option value="$PROJECT_DIR$/realapp.php" />
+        <option value="$USER_HOME$/Desktop/realapp.php" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/map" />
+      <recent name="$PROJECT_DIR$/dbconect" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f73886ef-7841-4bfa-9794-3736bf3f0c42" name="Default" comment="" />
+      <created>1512035218679</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1512035218679</updated>
+      <workItem from="1512035220109" duration="2401000" />
+      <workItem from="1512120368124" duration="3414000" />
+      <workItem from="1512558733971" duration="1213000" />
+      <workItem from="1512817309936" duration="47762000" />
+      <workItem from="1513021453086" duration="744000" />
+      <workItem from="1513025144810" duration="88838000" />
+      <workItem from="1513757456510" duration="17736000" />
+      <workItem from="1514022818103" duration="1748000" />
+      <workItem from="1514024597401" duration="8383000" />
+      <workItem from="1514188949843" duration="1316000" />
+      <workItem from="1514307089706" duration="8720000" />
+      <workItem from="1514365122238" duration="26110000" />
+      <workItem from="1514549647223" duration="46000" />
+      <workItem from="1514550016986" duration="2070000" />
+      <workItem from="1514626364874" duration="7000" />
+      <workItem from="1514895284860" duration="6006000" />
+      <workItem from="1514924841325" duration="25985000" />
+      <workItem from="1515082179621" duration="20009000" />
+      <workItem from="1515127320659" duration="10597000" />
+      <workItem from="1515165462803" duration="8303000" />
+      <workItem from="1515190436796" duration="45088000" />
+      <workItem from="1515275735655" duration="6065000" />
+      <workItem from="1515301402649" duration="16747000" />
+      <workItem from="1515352457442" duration="56033000" />
+      <workItem from="1515520767375" duration="112000" />
+      <workItem from="1515524483627" duration="504000" />
+      <workItem from="1515535854826" duration="104000" />
+      <workItem from="1515536152124" duration="106000" />
+      <workItem from="1515537183241" duration="368000" />
+      <workItem from="1515685123899" duration="1437000" />
+      <workItem from="1515718551018" duration="454000" />
+      <workItem from="1515720705310" duration="152000" />
+      <workItem from="1515859201493" duration="8239000" />
+      <workItem from="1522092530720" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="464066000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4375918" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32646593" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/phpfiles/login.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/realapp.php</url>
+          <line>350</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/phpfiles/update.php</url>
+          <line>7</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/reloadpage.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/phpfiles/checkstatus.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="18" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dbconect/Connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpfiles/fillForm.php" />
+    <entry file="file://$PROJECT_DIR$/../travelguide_bak/realapp_bak.php" />
+    <entry file="file://$PROJECT_DIR$/js/index_backup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/myScript_backup2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/plugins.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/popper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/map2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/phpjsonmap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="37" lean-forward="false" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map/phpsqlinfo_addrow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../travelguideonline/js/realapp.js" />
+    <entry file="file://$PROJECT_DIR$/index_backup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="473" column="0" lean-forward="false" selection-start-line="443" selection-start-column="0" selection-end-line="473" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/sse.php" />
+    <entry file="file://$PROJECT_DIR$/dbconect/Image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="90" column="11" lean-forward="false" selection-start-line="90" selection-start-column="11" selection-end-line="90" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../reload/sse.php" />
+    <entry file="file://$PROJECT_DIR$/../reload/index.html" />
+    <entry file="file://$USER_HOME$/Desktop/test/test.html" />
+    <entry file="file://$PROJECT_DIR$/refresh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/realapplocalbackup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="157" column="12" lean-forward="true" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/realappbackup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="100" column="47" lean-forward="true" selection-start-line="100" selection-start-column="47" selection-end-line="100" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/realapp-.js" />
+    <entry file="file://$PROJECT_DIR$/reload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/login.php" />
+    <entry file="file://$USER_HOME$/Desktop/index.js" />
+    <entry file="file://$USER_HOME$/Desktop/reloadpage.php" />
+    <entry file="file://$PROJECT_DIR$/reloadpage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpfiles/checkstatus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/signup.php" />
+    <entry file="file://$PROJECT_DIR$/phpfiles/signup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/_myColor.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/myStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="231" column="46" lean-forward="false" selection-start-line="231" selection-start-column="36" selection-end-line="231" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/index.php" />
+    <entry file="file://$PROJECT_DIR$/dbconect/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="101" column="43" lean-forward="false" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/realapp.js" />
+    <entry file="file://$USER_HOME$/Desktop/checkstatus.php" />
+    <entry file="file://$USER_HOME$/Desktop/update.php" />
+    <entry file="file://$PROJECT_DIR$/phpfiles/update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="26" column="79" lean-forward="false" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/User.php" />
+    <entry file="file://$PROJECT_DIR$/../travelguideonline/realapp.php" />
+    <entry file="file://$USER_HOME$/Desktop/realapp.php" />
+    <entry file="file://$PROJECT_DIR$/dbconect/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comment/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9401">
+          <caret line="553" column="0" lean-forward="false" selection-start-line="549" selection-start-column="0" selection-end-line="553" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/myStyle.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="123" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <marker date="1515490700607" expanded="true" signature="3776:4062" ph="..." />
+            <marker date="1515490700607" expanded="true" signature="3897:4024" ph="..." />
+            <marker date="1515490700607" expanded="true" signature="4293:4606" ph="..." />
+            <marker date="1515490700607" expanded="true" signature="4424:4568" ph="..." />
+            <marker date="1515490700607" expanded="true" signature="4962:5104" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1207">
+          <caret line="71" column="1" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="71" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/realapp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10081">
+          <caret line="593" column="1" lean-forward="false" selection-start-line="580" selection-start-column="0" selection-end-line="593" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpfiles/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/realapp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="884" column="0" lean-forward="false" selection-start-line="869" selection-start-column="0" selection-end-line="884" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

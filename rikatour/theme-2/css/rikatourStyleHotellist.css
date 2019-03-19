@@ -1,0 +1,108 @@
+/*
+-------------------------------------------- General Style --------------------------------------------
+ */
+#bodyHotelList{
+}
+
+.HeaderHotelList{
+    background: url("../img/main/headerHotelListBackgroundImage.png");
+    padding: 15px;
+}
+.contentHHL span:last-child{
+    font-size: x-large;
+}
+.headerLeftHL, .headerRightHL{
+    color: #993300;
+    font-size: 0.9rem;
+}
+.headerLeftHL span:first-child, .headerRightHL span:first-child{
+    font-weight: bolder;
+}
+#sectionLeftHotelList{
+    padding-left: 35px;
+    padding-right: 40px;
+}
+.contentLeftHotelList{
+    margin-left: -10px;
+    padding-left: 10px;
+}
+.titleLeftContentHotelList{
+    font-size: large;
+}
+.labelInputHotelList{
+    cursor: pointer;
+    font-size: large;
+    font-weight: normal;
+}
+.divFilterInput{
+    margin-top: -15px;
+}
+.filterHotelList div > input{
+    width: 20px;
+    height: 20px;
+}
+.spotBannerHotelList{
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.spotBannerHotelList .whiteColorText{
+    position: absolute;
+    margin-top: -37px;
+    margin-left: 15px;
+}
+.textSpotBannerHotelList{
+    position: absolute;
+    margin: 30px 0 0 150px;
+}
+.titleCRH{
+    font-size: x-large;
+    color: #339966;
+}
+.fontNormal{
+    font-weight: normal;
+}
+.fontLarge{
+    font-size: large;
+}
+.buttonHotelList{
+    position: absolute;
+    margin-left: 590px;
+    margin-top: -50px;
+    font-size: large;
+    font-weight: normal;
+}
+.fontSmall{
+    font-size: small;
+}
+.fontMedium{
+    font-size: medium;
+}
+#containerFilter2, #containerFilter3, #containerFilter4, #containerFilter5{
+    margin-top: -20px;
+}
+:root .filterHotelList div > input {
+    position: absolute;
+    left: -1000em;
+}
+:root .filterHotelList div > input + label:before{
+    content: "";
+    display: inline-block;
+    width  : 20px;
+    height : 20px;
+    margin: .1rem .8rem .1rem 0;
+    background: url("../img/main/boxes/checkBox.png") no-repeat 0 0;
+
+    /* The following is used to adjust the position of
+       the check boxes on the text baseline */
+
+    vertical-align: bottom;
+    position: relative;
+    bottom: 5px;
+}
+:root .filterHotelList div > input:checked + label:before {
+    background-position: 0 -25px;
+}
+:root .filterHotelList div > input:disabled + label:before {
+    background-position: 0 -50px;
+}

@@ -1,0 +1,49 @@
+.contentEHRC span:first-child{
+    font-size: x-large;
+}
+#carouselThumbnail{
+    display: flex;
+    flex-direction: row;
+}
+#carouselThumbnail div{
+    margin-left: 35px;
+}
+.alignLeft{
+    float: left;
+}
+.alignRight{
+    float: right;
+}
+.clearLeftRight{
+    clear: both;
+}
+.divTitle{
+    margin: 0 auto;
+}
+.asideEHRC{
+    margin-left: -30px;
+    max-height: 950px;
+}
+.listEHRCLeft span, .listEHRCRight span{
+    line-height: 2.5rem;
+}
+.containerList{
+    background-color: #fff;
+    font-size: medium;
+    width: 95%;
+}
+.fontTextLeft{
+    font-size: x-large;
+}
+.maroonColor{
+    color: #ff6633;
+}
+.greyColor{
+    color: #999999;
+}
+.whiteBackgroundColor{
+    background-color: #fff;
+}
+hr{
+    border: 1px dotted #999;
+}

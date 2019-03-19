@@ -1,0 +1,41 @@
+.setFormWidth{
+    width: 40%;
+}
+.setWidthBeforeForm{
+    width: 55%;
+}
+.setWidthBeforeForm h3, .setFormWidth h3{
+    font-size: medium;
+}
+.paragraphBeforeForm{
+    font-size: 0.95em;
+    font-weight: normal;
+}
+.inputElement, textareElement{
+    background: transparent;
+    border-radius: 0px;
+    border: 1px solid #999;
+}
+.textareElement{
+    min-height: 120px;
+    border-radius: 0px;
+    background: transparent;
+    border: 1px solid #999;
+}
+.containerList.whiteBackgroundColor{
+    min-height: 415px;
+}
+.buttonFormContact{
+    border: 1px solid transparent;
+    border-radius: 0px;
+    background-color: #0099cc;
+    padding: 6px 35px;
+    color: #fff;
+}
+.buttonFormContact:hover{
+    background-color: #ff6633;
+    color: #fff;
+}
+.zoomCursor:hover{
+    cursor: zoom-in;
+}

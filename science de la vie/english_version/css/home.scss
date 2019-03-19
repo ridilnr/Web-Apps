@@ -1,0 +1,171 @@
+@import "utilities/width";
+
+body {
+	//padding-top: 20px;
+	h1{ font-size: 1.8em; }
+	h2{ font-size: 1.2em; }
+	header {
+		background-color: #fff;
+		section {
+			div {
+				img {
+					width: 60px;
+					height: 60px;
+				}
+			}
+			div:last-child, form {
+				margin-top: 15px;
+			}
+		}
+	}
+	main {
+		//min-height: 500px;
+		background: url('../img/bg-8.jpg') no-repeat;
+		background-size: cover;
+		background-position: center;
+		aside{
+			nav{
+				ol.breadcrumb {
+					.breadcrumb-item + .breadcrumb-item::before {
+						font-family: "Font Awesome 5 Free";
+						content: "\f101";
+						display: inline-block;
+						font-weight: bold;
+					}
+				}
+			}
+			button{
+			}
+		}
+		section:first-child{
+
+		}
+		section:last-child{
+			div{
+				a.linkPage:hover{
+					text-decoration: none;
+				}
+				div{
+					color: #fff;
+					text-align: center;
+					width: 80px;
+					height: 80px;
+					div:first-child{
+
+					}
+					div:last-child{
+						font-size: .7em;
+					}
+				}
+				div:hover{
+					font-weight: bold;
+					opacity: 0.8;
+				}
+			}
+		}
+	}
+	footer {
+		background-color: #000;
+		div{
+			border-top: 1px solid #fff;
+		}
+	}
+	#modalNewsletter{
+		.modal-dialog{
+			.modal-content{
+				border: 2px solid #000;
+				border-radius: 10px;
+				background-color: gray;
+				.modal-header{
+					.modal-title{
+						text-align: center;
+					}
+					div{
+						position: absolute;
+						top: -40px;
+						width: 70px;
+						height: 70px;
+					}
+				}
+				.modal-body{
+					#emailNewsletter{
+						width: 320px;
+					}
+				}
+				.modal-footer{
+					button{
+						border-radius: 10px;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* small */
+@media (min-width: 576px) {
+	section:last-child{
+		div{
+			a.linkPage:hover{
+				text-decoration: none;
+			}
+			div{
+				color: #fff;
+				text-align: center;
+				width: 130px !important;
+				height: 130px !important;
+				div:first-child{
+
+				}
+				div:last-child{
+					font-size: 1.2em !important;
+				}
+			}
+			div:hover{
+				font-weight: bold;
+				opacity: 0.8;
+			}
+		}
+	}
+}
+
+/* medium */
+@media (min-width: 768px) {
+	h1{ font-size: 2em !important; }
+	h2{ font-size: 1.4em !important; }
+}
+
+/* large */
+@media (min-width: 992px) {
+	h1{ font-size: 2.2em !important; }
+	h2{ font-size: 1.6em !important; }
+	section:last-child{
+		div{
+			a.linkPage:hover{
+				text-decoration: none;
+			}
+			div{
+				color: #fff;
+				text-align: center;
+				width: 225px !important;
+				height: 225px !important;
+				div:first-child{
+
+				}
+				div:last-child{
+					font-size: 1.5em !important;
+				}
+			}
+			div:hover{
+				font-weight: bold;
+				opacity: 0.8;
+			}
+		}
+	}
+}
+
+/* extra large */
+@media (min-width: 1200px) {
+	h1{ font-size: 2.4em !important; }
+	h2{ font-size: 1.8em !important; }
+}

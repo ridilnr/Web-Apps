@@ -1,0 +1,623 @@
+<!doctype html>
+<html class="no-js" lang="TR">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Rikatour - Car List</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" href="http://www.rikasoft.com/img/favicon.ico">
+
+    <!-- HTML 5 BoilerTemplate css link files -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Bootstrap 4 css link files -->
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Bootstrap/css/bootstrap-grid.min.css">
+
+    <!-- Font-Awesome 4.7.0 css link file -->
+    <link rel="stylesheet" href="fontAwesome/css/font-awesome.min.css">
+
+    <!-- Rikatour css link file -->
+    <link rel="stylesheet" href="css/rikatourStyleResponsiveExtraSmall.css">
+    <link rel="stylesheet" href="css/rikatourStyleResponsiveSmall.css">
+    <link rel="stylesheet" href="css/rikatourStyleResponsiveMedium.css">
+    <link rel="stylesheet" href="css/rikatourStyleResponsiveLarge.css">
+    <link rel="stylesheet" href="css/rikatourStyleResponsiveExtraLarge.css">
+    <link rel="stylesheet" href="css/rikatourStyleHotellist.css">
+    <link rel="stylesheet" href="css/rikatourStyleEHRC.css">
+    <link rel="stylesheet" href="css/rikatourStyleContact.css">
+    <link rel="stylesheet" href="css/rikatourStylePP.css">
+    <link rel="stylesheet" href="css/rikatourStyleSamplePage.css">
+    <link rel="stylesheet" href="css/rikatourStyleCarlist.css">
+
+</head>
+<body class="container">
+<div id="bodyCover" class="row">
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+    <![endif]-->
+
+    <!-- Header of the page -->
+    <header class="container">
+        <!-- Fake menu of the page -->
+        <section class="row HeaderSectionMenu">
+            <!-- Optional Parameters -->
+            <div class="col-md-5 optionalElement">
+                <div class="optionalElementDiv">
+                    <span> <i class="fa fa-user" aria-hidden="true"></i> &nbsp; HO&Scedil; GELD&Idot;N MURAT</span>
+                </div>
+                <div class="optionalElementDiv">
+                    <span> <i class="fa fa-caret-down" aria-hidden="true"></i>&nbsp; TURKISH</span>
+                </div>
+                <div class="optionalElementDiv">
+                    <span> <i class="fa fa-caret-down" aria-hidden="true"></i>&nbsp; TL (<i class="fa fa-try" aria-hidden="true"></i>)</span>
+                </div>
+            </div>
+            <!-- Layout Purpose-->
+            <div class="col-md-2">
+
+            </div>
+            <!-- Social Icons -->
+            <div class="col-md-5 socialIcon socialIconSmall">
+                <div class="socialIconDiv">
+                    <span class="fafafacebook"> <i class="fa fa-facebook" aria-hidden="true"></i> </span>
+                </div>
+                <div class="socialIconDiv">
+                    <span class="fafatwitter"> <i class="fa fa-twitter" aria-hidden="true"></i> </span>
+                </div>
+                <div class="socialIconDiv">
+                    <span class="fafacameraretro"> <i class="fa fa-camera-retro" aria-hidden="true"></i> </span>
+                </div>
+                <div class="socialIconDiv">
+                    <span class="fafayoutubeplay"> <i class="fa fa-youtube-play" aria-hidden="true"></i> </span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Menu of the page for small and Medium Screen -->
+        <nav class="row HeaderMenu2 navbar navbar-toggleable-sm">
+            <div id="smallMedium" class="container-fluid" style="color: black">
+                <div class="logoMargin2">
+                    <a href="index.html"><img class="logo-header" src="img/logo-rikatour.png" alt=""/></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavbarSmallMedium">
+                    <span><i class="fa fa-bars fa-2x"></i></span>
+                </button>
+                <div class="collapse navbar-collapse mt-3" id="NavbarSmallMedium">
+                    <ul class="navbar-nav text-center">
+                        <li class="nav-item active">
+                            <a href="index.html" title="" class="nav-link active">
+                                <span><i class="fa fa-home fa-2x" aria-hidden="true"></i></span>
+                                <span>&nbsp; Home</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="hotellist.html" title="" class="nav-link">
+                                <span><i class="fa fa-bed fa-2x" aria-hidden="true"></i></span>
+                                <span>&nbsp; Hotel List</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="hoteldetail.html" title="" class="nav-link">
+                                <span><i class="fa fa-plane fa-2x" aria-hidden="true"></i></span>
+                                <span>&nbsp; Hotel Detail</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" title="" class="nav-link">
+                                <span><i class="fa fa-car fa-2x" aria-hidden="true"></i></span>
+                                <span>&nbsp; Car List</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="samplepage.html" title="" class="nav-link">
+                                <span><i class="fa fa-globe fa-2x" aria-hidden="true"></i></span>
+                                <span>&nbsp; Sample Page</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" title="" class="nav-link">
+                                <span><i class="fa fa-exchange fa-2x" aria-hidden="true"></i></span>
+                                <span>&nbsp; Contact</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="paymentpage.html" title="" class="linkMenu2 nav-link">
+                                <div class="Menu7">
+                                    <span><i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i></span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main menu of the page for Large and Extra Large Screen -->
+        <nav class="row HeaderMenu">
+            <div class="col-md-4">
+                <a href="index.html"><img src="img/logo-rikatour.png" alt=""/></a>
+            </div>
+            <div class="col-md-8 HeaderMenuIcon text-center">
+                <div class="Menu1">
+                    <a href="index.html" title="" class="linkMenu1">
+                        <span><i class="fa fa-home fa-2x" aria-hidden="true"></i></span>
+                        <br>
+                        <span>Home</span>
+                    </a>
+                </div>
+                <div class="Menu2">
+                    <a href="hotellist.html" title="" class="linkMenu2">
+                        <span><i class="fa fa-bed fa-2x" aria-hidden="true"></i></span>
+                        <br>
+                        <span>Hotel List</span>
+                    </a>
+                </div>
+                <div class="Menu3">
+                    <a href="hoteldetail.html" title="" class="linkMenu3">
+                        <span><i class="fa fa-plane fa-2x" aria-hidden="true"></i></span>
+                        <br>
+                        <span>Hotel Detail</span>
+                    </a>
+                </div>
+                <div class="Menu4">
+                    <a href="#" title="" class="linkMenu4 active">
+                        <span><i class="fa fa-car fa-2x" aria-hidden="true"></i></span>
+                        <br>
+                        <span>Car List</span>
+                    </a>
+                </div>
+                <div class="Menu5">
+                    <a href="samplepage.html" title="" class="linkMenu5">
+                        <span><i class="fa fa-globe fa-2x" aria-hidden="true"></i></span>
+                        <br>
+                        <span>Sample Page</span>
+                    </a>
+                </div>
+                <div class="Menu6">
+                    <a href="contact.html" title="" class="linkMenu6">
+                        <span><i class="fa fa-exchange fa-2x" aria-hidden="true"></i></span>
+                        <br>
+                        <span>Contact</span>
+                    </a>
+                </div>
+                <a href="paymentpage.html" title="" >
+                    <div class="Menu7">
+                        <div>
+                            <span>5</span>
+                        </div>
+                        <span><i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i></span>
+                    </div>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main content of the page -->
+    <main class="container-fluid">
+        <!-- Header of the page -->
+        <div class="row HeaderHotelList">
+            <header class="container-fluid text-center">
+                <div class="contentHHL">
+                    <span><i class="fa fa-exchange fa-4x" aria-hidden="true"></i></span>
+                    <br>
+                    <span>CAR LIST HEADER</span>
+                </div>
+            </header>
+        </div>
+        <!-- CONTENT MAIN PAGE -->
+        <section class="row pt-md-3 pb-5" id="sectionLeftHotelList">
+            <div class="container clearfix greenColor pb-5">
+                <div class="row">
+                    <!-- Content Left -->
+                    <div class="col-md-3">
+                        <div class="whiteBackgroundColor contentLeftHotelList pb-5">
+                            <!-- First Element -->
+                            <div class="filterHotelList pl-2" id="containerFilter1">
+                                <h1 class="greenColor boldWeight titleLeftContentHotelList pt-4">Alış Ofisi</h1>
+                                <div class="greyColor">
+                                    <h6>İSTANBUL SABİHA</h6>
+                                    <h6>GÖKÇEN HAVALİMANI OFİS</h6>
+                                </div>
+                            </div>
+                            <!-- Second Element -->
+                            <div class="filterHotelList pl-2 pt-1" id="containerFilter2">
+                                <h1 class="boldWeight greenColor titleLeftContentHotelList pt-4">Alış Tarihi</h1>
+                                <div class="greyColor">
+                                    <h6>25 Temmuz Sal. 17:00</h6>
+                                </div>
+                            </div>
+                            <!-- Third Element -->
+                            <div class="filterHotelList pl-2 pt-4" id="containerFilter3">
+                                <h1 class="boldWeight greenColor titleLeftContentHotelList pt-4">İade Ofisi</h1>
+                                <div class="greyColor">
+                                    <h6>İSTANBUL SABİHA</h6>
+                                    <h6>GÖKÇEN HAVALİMANI OFİS</h6>
+                                </div>
+                            </div>
+                            <!-- Fourth Element -->
+                            <div class="filterHotelList pl-2 pt-1 pb-5" id="containerFilter4">
+                                <h1 class="boldWeight greenColor titleLeftContentHotelList pt-4">İade Tarihi</h1>
+                                <div class="greyColor">
+                                    <h6>23 Ağustos Çar. 17:00</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Content Right -->
+                    <div class="col-md-9 pr-2">
+                        <!-- FILTER -->
+                        <div class="row">
+                            <!-- Filter 1 -->
+                            <div class="col-md-4">
+                                <div class="input-group inputFilterCarList">
+                                    <input type="text" class="form-control" placeholder="Tüm Araç Tipleri" aria-describedby="basic-addon2">
+                                    <span class="input-group-addon" id="basic-addon2">
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- Filter 2 -->
+                            <div class="col-md-4">
+                                <div class="input-group inputFilterCarList">
+                                    <input type="text" class="form-control" placeholder="Tüm Vites Tipleri" aria-describedby="basic-addon2">
+                                    <span class="input-group-addon" id="basic-addon2">
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <!-- Filter 3 -->
+                            <div class="col-md-4">
+                                <div class="input-group inputFilterCarList">
+                                    <input type="text" class="form-control" placeholder="Tüm Yakıt Tipleri" aria-describedby="basic-addon2">
+                                    <span class="input-group-addon" id="basic-addon2">
+                                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 1 -->
+                        <div class="row mt-4">
+                            <!-- Item 1 Column 1-->
+                            <div class="col-md-4">
+                                <img src="img/product/photoProduct1.png">
+                                <div class="whiteBackgroundColor text-center">
+                                    <div class="pt-4">
+                                        <h4 class="boldWeight">Ford Focus</h4>
+                                        <h5 class="greyColor fontNormal">Ekonomi Sınıfı</h5>
+                                    </div>
+                                    <div class="d-flex flex-row mt-4 mb-4 fontMedium">
+                                        <div class="ml-5 pt-2">
+                                            <img src="img/icons/settings-gears.png"><br>
+                                            <span class="greyColor fontNormal">Manuel</span>
+                                        </div>
+                                        <div class="ml-5 pl-3 pt-2">
+                                            <img src="img/icons/oil-drum.png"><br>
+                                            <span class="greyColor fontNormal">Dizel</span>
+                                        </div>
+                                    </div>
+                                    <div class="pt-2 pb-4">
+                                        <a href="#" class="buttonProductCarList">KİRALA</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 1 Column 2-->
+                            <div class="col-md-4">
+                                <img src="img/product/photoProduct1.png">
+                                <div class="whiteBackgroundColor text-center">
+                                    <div class="pt-4">
+                                        <h4 class="boldWeight">Ford Focus</h4>
+                                        <h5 class="greyColor fontNormal">Ekonomi Sınıfı</h5>
+                                    </div>
+                                    <div class="d-flex flex-row mt-4 mb-4 fontMedium">
+                                        <div class="ml-5 pt-2">
+                                            <img src="img/icons/settings-gears.png"><br>
+                                            <span class="greyColor fontNormal">Manuel</span>
+                                        </div>
+                                        <div class="ml-5 pl-3 pt-2">
+                                            <img src="img/icons/oil-drum.png"><br>
+                                            <span class="greyColor fontNormal">Dizel</span>
+                                        </div>
+                                    </div>
+                                    <div class="pt-2 pb-4">
+                                        <a href="#" class="buttonProductCarList">KİRALA</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 1 Column 3-->
+                            <div class="col-md-4">
+                                <img src="img/product/photoProduct1.png">
+                                <div class="whiteBackgroundColor text-center">
+                                    <div class="pt-4">
+                                        <h4 class="boldWeight">Ford Focus</h4>
+                                        <h5 class="greyColor fontNormal">Ekonomi Sınıfı</h5>
+                                    </div>
+                                    <div class="d-flex flex-row mt-4 mb-4 fontMedium">
+                                        <div class="ml-5 pt-2">
+                                            <img src="img/icons/settings-gears.png"><br>
+                                            <span class="greyColor fontNormal">Manuel</span>
+                                        </div>
+                                        <div class="ml-5 pl-3 pt-2">
+                                            <img src="img/icons/oil-drum.png"><br>
+                                            <span class="greyColor fontNormal">Dizel</span>
+                                        </div>
+                                    </div>
+                                    <div class="pt-2 pb-4">
+                                        <a href="#" class="buttonProductCarList">KİRALA</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 2 -->
+                        <div class="row mt-4">
+                            <!-- Item 1 Column 1-->
+                            <div class="col-md-4">
+                                <img src="img/product/photoProduct1.png">
+                                <div class="whiteBackgroundColor text-center">
+                                    <div class="pt-4">
+                                        <h4 class="boldWeight">Ford Focus</h4>
+                                        <h5 class="greyColor fontNormal">Ekonomi Sınıfı</h5>
+                                    </div>
+                                    <div class="d-flex flex-row mt-4 mb-4 fontMedium">
+                                        <div class="ml-5 pt-2">
+                                            <img src="img/icons/settings-gears.png"><br>
+                                            <span class="greyColor fontNormal">Manuel</span>
+                                        </div>
+                                        <div class="ml-5 pl-3 pt-2">
+                                            <img src="img/icons/oil-drum.png"><br>
+                                            <span class="greyColor fontNormal">Dizel</span>
+                                        </div>
+                                    </div>
+                                    <div class="pt-2 pb-4">
+                                        <a href="#" class="buttonProductCarList">KİRALA</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 1 Column 2-->
+                            <div class="col-md-4">
+                                <img src="img/product/photoProduct1.png">
+                                <div class="whiteBackgroundColor text-center">
+                                    <div class="spotBannerCarList">
+                                        <img src="img/main/spotBannerCarlist.png" alt="" title="">
+                                    </div>
+                                    <div class="whiteColorText spotBannerCarListTextDiv">
+                                        <span class="fontLarge">FREE</span>
+                                        <span class="fontNormal">ONE DAY</span>
+                                    </div>
+                                    <div class="pt-4">
+                                        <h4 class="boldWeight">Ford Focus</h4>
+                                        <h5 class="greyColor fontNormal">Ekonomi Sınıfı</h5>
+                                    </div>
+                                    <div class="d-flex flex-row mt-4 mb-4 fontMedium">
+                                        <div class="ml-5 pt-2">
+                                            <img src="img/icons/settings-gears.png"><br>
+                                            <span class="greyColor fontNormal">Manuel</span>
+                                        </div>
+                                        <div class="ml-5 pl-3 pt-2">
+                                            <img src="img/icons/oil-drum.png"><br>
+                                            <span class="greyColor fontNormal">Dizel</span>
+                                        </div>
+                                    </div>
+                                    <div class="pt-2 pb-4">
+                                        <a href="#" class="buttonProductCarList">KİRALA</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 1 Column 3-->
+                            <div class="col-md-4">
+                                <img src="img/product/photoProduct1.png">
+                                <div class="whiteBackgroundColor text-center">
+                                    <div class="spotBannerCarList">
+                                        <img src="img/main/spotBannerCarlist.png" alt="" title="">
+                                    </div>
+                                    <div class="whiteColorText spotBannerCarListTextDiv">
+                                        <span class="fontLarge">FREE</span>
+                                        <span class="fontNormal">ONE DAY</span>
+                                    </div>
+                                    <div class="pt-4">
+                                        <h4 class="boldWeight">Ford Focus</h4>
+                                        <h5 class="greyColor fontNormal">Ekonomi Sınıfı</h5>
+                                    </div>
+                                    <div class="d-flex flex-row mt-4 mb-4 fontMedium">
+                                        <div class="ml-5 pt-2">
+                                            <img src="img/icons/settings-gears.png"><br>
+                                            <span class="greyColor fontNormal">Manuel</span>
+                                        </div>
+                                        <div class="ml-5 pl-3 pt-2">
+                                            <img src="img/icons/oil-drum.png"><br>
+                                            <span class="greyColor fontNormal">Dizel</span>
+                                        </div>
+                                    </div>
+                                    <div class="pt-2 pb-4">
+                                        <a href="#" class="buttonProductCarList">KİRALA</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Item 3 -->
+                        <div class="row mt-4">
+                            <!-- Item 1 Column 1-->
+                            <div class="col-md-4">
+                                <img src="img/product/photoProduct1.png">
+                                <div class="whiteBackgroundColor text-center">
+                                    <div class="pt-4">
+                                        <h4 class="boldWeight">Ford Focus</h4>
+                                        <h5 class="greyColor fontNormal">Ekonomi Sınıfı</h5>
+                                    </div>
+                                    <div class="d-flex flex-row mt-4 mb-4 fontMedium">
+                                        <div class="ml-5 pt-2">
+                                            <img src="img/icons/settings-gears.png"><br>
+                                            <span class="greyColor fontNormal">Manuel</span>
+                                        </div>
+                                        <div class="ml-5 pl-3 pt-2">
+                                            <img src="img/icons/oil-drum.png"><br>
+                                            <span class="greyColor fontNormal">Dizel</span>
+                                        </div>
+                                    </div>
+                                    <div class="pt-2 pb-4">
+                                        <a href="#" class="buttonProductCarList">KİRALA</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 1 Column 2-->
+                            <div class="col-md-4">
+                                <img src="img/product/photoProduct1.png">
+                                <div class="whiteBackgroundColor text-center">
+                                    <div class="pt-4">
+                                        <h4 class="boldWeight">Ford Focus</h4>
+                                        <h5 class="greyColor fontNormal">Ekonomi Sınıfı</h5>
+                                    </div>
+                                    <div class="d-flex flex-row mt-4 mb-4 fontMedium">
+                                        <div class="ml-5 pt-2">
+                                            <img src="img/icons/settings-gears.png"><br>
+                                            <span class="greyColor fontNormal">Manuel</span>
+                                        </div>
+                                        <div class="ml-5 pl-3 pt-2">
+                                            <img src="img/icons/oil-drum.png"><br>
+                                            <span class="greyColor fontNormal">Dizel</span>
+                                        </div>
+                                    </div>
+                                    <div class="pt-2 pb-4">
+                                        <a href="#" class="buttonProductCarList">KİRALA</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Item 1 Column 3-->
+                            <div class="col-md-4">
+                                <img src="img/product/photoProduct1.png">
+                                <div class="whiteBackgroundColor text-center">
+                                    <div class="pt-4">
+                                        <h4 class="boldWeight">Ford Focus</h4>
+                                        <h5 class="greyColor fontNormal">Ekonomi Sınıfı</h5>
+                                    </div>
+                                    <div class="d-flex flex-row mt-4 mb-4 fontMedium">
+                                        <div class="ml-5 pt-2">
+                                            <img src="img/icons/settings-gears.png"><br>
+                                            <span class="greyColor fontNormal">Manuel</span>
+                                        </div>
+                                        <div class="ml-5 pl-3 pt-2">
+                                            <img src="img/icons/oil-drum.png"><br>
+                                            <span class="greyColor fontNormal">Dizel</span>
+                                        </div>
+                                    </div>
+                                    <div class="pt-2 pb-4">
+                                        <a href="#" class="buttonProductCarList">KİRALA</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div class="container" id="asideFooter">
+        &nbsp;
+    </div>
+    <!-- Footer of the page -->
+    <footer class="container">
+        <div class="row otherInfo">
+            <div class="otherInfoItem">
+                <h3><span>Lorem Ipsum</span></h3>
+                <p>
+                    <a href="#"><span>Dolor Sit Amet,</span></a><br>
+                    <a href="#"><span>Edipis Cing Edip</span></a><br>
+                    <a href="#"><span>Sed Du Eusmod</span></a><br>
+                    <a href="#"><span>Sed Du Eusmod</span></a><br>
+                    <a href="#"><span>Sepurami Incididunt</span></a><br>
+                    <a href="#"><span>Edipis Cing Edip</span></a><br>
+                    <a href="#"><span>Sed Du Eusmod Asher</span></a><br>
+                    <a href="#"><span>Edipis Cing Epjy</span></a><br>
+                    <a href="#"><span>Skrp Du Mursp Eruilp</span></a>
+                </p>
+            </div>
+            <div class="otherInfoItem">
+                <h3><span>Sit Amet</span></h3>
+                <p>
+                    <a href="#"><span>Dolor Sit Amet,</span></a><br>
+                    <a href="#"><span>Edipis Cing Edip</span></a><br>
+                    <a href="#"><span>Sed Du Eusmod</span></a><br>
+                    <a href="#"><span>Sepurami Incididunt</span></a><br>
+                    <a href="#"><span>Edipis Cing Edip</span></a><br>
+                    <a href="#"><span>Sed Du Eusmod Asher</span></a><br>
+                    <a href="#"><span>Edipis Cing Epjy</span></a><br>
+                    <a href="#"><span>Mimi Du Mursp Eruilp</span></a>
+                </p>
+            </div>
+            <div class="otherInfoItem">
+                <h3><span>Dolor Hohomi</span></h3>
+                <p>
+                    <a href="#"><span>Dolor Sit Amet,</span></a><br>
+                    <a href="#"><span>Edipis Cing Edip</span></a><br>
+                    <a href="#"><span>Sed Du Eusmod</span></a><br>
+                    <a href="#"><span>Sepurami Incididunt</span></a><br>
+                    <a href="#"><span>Edipis Cing Edip</span></a><br>
+                    <a href="#"><span>Sed Du Eusmod Asher</span></a><br>
+                    <a href="#"><span>Edipis Cing Epjy</span></a><br>
+                    <a href="#"><span>Lulu Du Mursp Eruilp</span></a>
+                </p>
+            </div>
+            <div class="otherInfoItem">
+                <h3><span>Kurumsal</span></h3>
+                <p>
+                    <a href="#"><span>Hakkımızda</span></a><br>
+                    <a href="#"><span>Blogumuz</span></a><br>
+                    <a href="#"><span><a href="#">Bize Ulaşın</span></a><br>
+                    <h3><a href="#" class="normalYellowColor"><span>444 0 123</span></a></h3>
+                    <a href="#" class="emmail"><span>info@rikatour.com</span></a><br>
+                    <a href="#"><img src="img/logo-rikatour.png"></a>
+                </p>
+            </div>
+        </div>
+        <div class="row footerRow2">
+            <div class="container">
+                <!-- Copyright Parameters -->
+                <div class="col-md-5 footerText pull-left">
+                    <span> &copy; 2017 Tüm hakları saklıdır. Tasarım ve yazılım: </span>
+                    <img src="img/logo-rikatour-footer.png" alt="" title="">
+                </div>
+                <!-- Layout Purpose-->
+                <div class="col-md-2">
+
+                </div>
+                <!-- Social Icons -->
+                <div class="col-md-5 socialIcon footerIcon">
+                    <div class="socialIconDiv">
+                        <span class="fafafacebook"> <i class="fa fa-facebook" aria-hidden="true"></i> </span>
+                    </div>
+                    <div class="socialIconDiv">
+                        <span class="fafatwitter"> <i class="fa fa-twitter" aria-hidden="true"></i> </span>
+                    </div>
+                    <div class="socialIconDiv">
+                        <span class="fafacameraretro"> <i class="fa fa-camera-retro" aria-hidden="true"></i> </span>
+                    </div>
+                    <div class="socialIconDiv">
+                        <span class="fafayoutubeplay"> <i class="fa fa-youtube-play" aria-hidden="true"></i> </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Bootstrap 4 js link file -->
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+        window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+        ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</div>
+</body>
+</html>

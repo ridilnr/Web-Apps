@@ -1,0 +1,6 @@
+.paragraphDiv p:first-child{
+    font-size: x-large;
+}
+.paragraphDiv p{
+    font-size: large;
+}

@@ -1,0 +1,107 @@
+body h1 {
+  font-size: 1.8em; }
+body h2 {
+  font-size: 1.2em; }
+body header {
+  background-color: #fff; }
+  body header section {
+    border-bottom: 1px solid #000; }
+    body header section div img {
+      width: 60px;
+      height: 60px; }
+    body header section div:last-child, body header section form {
+      margin-top: 15px; }
+  body header nav {
+    background-color: #000;
+    font-size: x-small;
+    min-height: 5.5em; }
+    body header nav div {
+      width: 28px;
+      height: 28px; }
+    body header nav a.linkPage {
+      text-decoration: none;
+      color: #000; }
+    body header nav a.linkPage:hover, body header nav a.linkPage.active {
+      font-weight: bold; }
+      body header nav a.linkPage:hover div:first-child div:first-child, body header nav a.linkPage.active div:first-child div:first-child {
+        background-color: transparent !important;
+        color: #fff;
+        border: 1px solid #fff; }
+body main aside nav ol.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f101";
+  display: inline-block;
+  font-weight: bold; }
+body main section {
+  border-bottom: 1px solid #000; }
+body footer {
+  background-color: #000; }
+  body footer section:first-child div:last-child div div {
+    width: 35px;
+    height: 35px; }
+    body footer section:first-child div:last-child div div .fab.fa-facebook-f, body footer section:first-child div:last-child div div .fab.fa-google-plus-g,
+    body footer section:first-child div:last-child div div .fab.fa-instagram, body footer section:first-child div:last-child div div .fab.fa-twitter {
+      font-size: 1.5em; }
+  body footer section:last-child aside {
+    border-bottom: 1px solid #fff;
+    margin-top: -40px; }
+    body footer section:last-child aside div {
+      z-index: 99;
+      position: relative;
+      top: 20px; }
+body #modalNewsletter .modal-dialog .modal-content {
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: gray; }
+  body #modalNewsletter .modal-dialog .modal-content .modal-header .modal-title {
+    text-align: center; }
+  body #modalNewsletter .modal-dialog .modal-content .modal-header div {
+    position: absolute;
+    top: -40px;
+    width: 70px;
+    height: 70px; }
+  body #modalNewsletter .modal-dialog .modal-content .modal-body #emailNewsletter {
+    width: 320px; }
+  body #modalNewsletter .modal-dialog .modal-content .modal-footer button {
+    border-radius: 10px; }
+
+/* small */
+@media (min-width: 576px) {
+  nav {
+    font-size: small !important; } }
+/* medium */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 2em !important; }
+
+  h2 {
+    font-size: 1.4em !important; }
+
+  nav {
+    font-size: medium !important;
+    min-height: 110px !important; }
+    nav div a.linkPage .constWidthHeight {
+      width: 60px !important;
+      height: 60px !important; }
+
+  footer {
+    background-color: #000; }
+    footer section:first-child div:last-child div div {
+      width: 45px !important;
+      height: 45px !important; } }
+/* large */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 2.2em !important; }
+
+  h2 {
+    font-size: 1.6em !important; } }
+/* extra large */
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 2.4em !important; }
+
+  h2 {
+    font-size: 1.8em !important; } }
+
+/*# sourceMappingURL=sitemap.css.map */

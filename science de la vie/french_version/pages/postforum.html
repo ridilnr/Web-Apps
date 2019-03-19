@@ -1,0 +1,773 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Post Forum-Page</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!--<link rel="manifest" href="site.webmanifest">-->
+        <link rel="apple-touch-icon" href="../icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <!-- Magnific Popup core CSS file -->
+        <link rel="stylesheet" href="../magnific-popup/magnific-popup.css">
+        <link rel="stylesheet" href="../slick/slick.css"/>
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/utilities/extra-styles-bootstrap.css">
+        <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="../css/postforum.css">
+    </head>
+    <body>
+    <!--[if lte IE 9]>
+    <p class="browserupgrade">Vous utilisez un navigateur <strong> obsolète</strong>. Veuillez<a href="https://browsehappy.com/">mettre à niveau
+                 votre navigateur</a> pour améliorer votre expérience et votre sécurité.</p>
+    <![endif]-->
+
+    <!-- Start Header content of the web app -->
+    <header>
+        <!-- Start Mini-Menu content of the web app -->
+        <section class="d-flex flex-wrap justify-content-between pl-3 pr-3">
+            <div class="">
+                <img src="../img/logo.png" class="img-fluid">
+            </div>
+            <form class="d-flex form-group">
+                <div class="">
+                    <input type="text" class="form-control form-control-sm" placeholder="Tapez votre recherche ici ...">
+                </div>
+                <div class="mt-0 ml-2">
+                    <button class="btn btn-sm btn-dark">
+                        <span class="fas fa-search"></span>
+                        <span class="pl-1">Chercher</span>
+                    </button>
+                </div>
+            </form>
+            <form class="form-group">
+                <select class="form-control form-control-sm">
+                    <option class="">Langue</option>
+                    <option class="">Anglais</option>
+                    <option class="">Français</option>
+                </select>
+            </form>
+            <div class="">
+                <a class="" href="login.html">
+                    <button class="btn btn-sm btn-outline-dark">
+                        <span class="fas fa-sign-in-alt"></span>
+                        <span class="">Connexion</span>
+                    </button>
+                </a>
+                <span class=""> | </span>
+                <a class="" href="register.html">
+                    <button class="btn btn-sm btn-outline-dark">
+                        <span class="fas fa-user-plus"></span>
+                        <span class="">Inscrivez-vous</span>
+                    </button>
+                </a>
+            </div>
+        </section>
+        <!-- End Mini-Menu content of the web app -->
+
+        <!-- Start Menu content of the web app -->
+        <nav id="navigationMenu" class="d-flex">
+            <div class="d-flex justify-content-center">
+                <a class="linkPage pt-2 pt-sm-3" href="../../index.html">
+                    <div class="constWidthHeight">
+                        <div class="constWidthHeight bg-light rounded-circle text-center d-flex flex-column align-self-center justify-content-center">
+                            <span class="fas fa-home fa-md-2x"></span>
+                        </div>
+                        <div class="constWidthHeight text-light d-flex justify-content-center">
+                            <span class="">Accueil</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a class="linkPage pt-2 pt-sm-3" href="listcourses.html">
+                    <div class="constWidthHeight">
+                        <div class="constWidthHeight bg-light rounded-circle text-center d-flex flex-column align-self-center justify-content-center">
+                            <span class="fas fa-chalkboard-teacher fa-md-2x"></span>
+                        </div>
+                        <div class="constWidthHeight text-light d-flex justify-content-center">
+                            <span class="">Cours</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a class="linkPage pt-2 pt-sm-3" href="listarticles.html">
+                    <div class="constWidthHeight">
+                        <div class="constWidthHeight bg-light rounded-circle text-center d-flex flex-column align-self-center justify-content-center">
+                            <span class="fas fa-newspaper fa-md-2x"></span>
+                        </div>
+                        <div class="constWidthHeight text-light d-flex justify-content-center">
+                            <span class="">Articles</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a class="linkPage pt-2 pt-sm-3" href="listforums.html">
+                    <div class="constWidthHeight">
+                        <div class="constWidthHeight bg-light rounded-circle text-center d-flex flex-column align-self-center justify-content-center">
+                            <span class="fas fa-blog fa-md-2x"></span>
+                        </div>
+                        <div class="constWidthHeight text-light d-flex justify-content-center">
+                            <span class="">Forums</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a class="linkPage pt-2 pt-sm-3" href="about.html">
+                    <div class="constWidthHeight">
+                        <div class="constWidthHeight bg-light rounded-circle text-center d-flex flex-column align-self-center justify-content-center">
+                            <span class="fas fa-question fa-md-2x"></span>
+                        </div>
+                        <div class="constWidthHeight text-light d-flex justify-content-center">
+                            <span class="">A&nbsp;propos</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a class="linkPage pt-2 pt-sm-3" href="contact.html">
+                    <div class="constWidthHeight">
+                        <div class="constWidthHeight bg-light rounded-circle text-center d-flex flex-column align-self-center justify-content-center">
+                            <span class="fas fa-address-card fa-md-2x"></span>
+                        </div>
+                        <div class="constWidthHeight text-light d-flex justify-content-center">
+                            <span class="">Contact</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a class="linkPage pt-2 pt-sm-3" href="sitemap.html">
+                    <div class="constWidthHeight">
+                        <div class="constWidthHeight bg-light rounded-circle text-center d-flex flex-column align-self-center justify-content-center">
+                            <span class="fas fa-sitemap fa-md-2x"></span>
+                        </div>
+                        <div class="constWidthHeight text-light d-flex justify-content-center">
+                            <span class="">Plan&nbsp;Site</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a class="linkPage pt-2 pt-sm-3" href="gallery.html">
+                    <div class="constWidthHeight">
+                        <div class="constWidthHeight bg-light rounded-circle text-center d-flex flex-column align-self-center justify-content-center">
+                            <span class="fas fa-images fa-md-2x"></span>
+                        </div>
+                        <div class="constWidthHeight text-light d-flex justify-content-center">
+                            <span class="">Galerie</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a class="linkPage pt-2 pt-sm-3" href="#" data-toggle="modal" data-target="#modalNewsletter">
+                    <div class="constWidthHeight">
+                        <div class="constWidthHeight bg-light rounded-circle text-center d-flex flex-column align-self-center justify-content-center">
+                            <span class="fas fa-envelope-open-text fa-md-2x"></span>
+                        </div>
+                        <div class="constWidthHeight text-light d-flex justify-content-center">
+                            <span class="">Bulletin</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a class="linkPage pt-2 pt-sm-3" href="termsandconditions.html">
+                    <div class="constWidthHeight">
+                        <div class="constWidthHeight bg-light rounded-circle text-center d-flex flex-column align-self-center justify-content-center">
+                            <span class="fas fa-file-alt fa-md-2x"></span>
+                        </div>
+                        <div class="constWidthHeight text-light d-flex justify-content-center">
+                            <span class="">T&C</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a class="linkPage pt-2 pt-sm-3" href="faqs.html">
+                    <div class="constWidthHeight">
+                        <div class="constWidthHeight bg-light rounded-circle text-center d-flex flex-column align-self-center justify-content-center">
+                            <span class="fas fa-question-circle fa-md-2x"></span>
+                        </div>
+                        <div class="constWidthHeight text-light d-flex justify-content-center">
+                            <span class="">Faqs</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a class="linkPage pt-2 pt-sm-3" href="privacypolicy.html">
+                    <div class="constWidthHeight">
+                        <div class="constWidthHeight bg-light rounded-circle text-center d-flex flex-column align-self-center justify-content-center">
+                            <span class="fas fa-user-secret fa-md-2x"></span>
+                        </div>
+                        <div class="constWidthHeight text-light d-flex justify-content-center">
+                            <span class="">Règ.&nbsp;Confid.</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </nav>
+        <!-- End Menu content of the web app -->
+    </header>
+    <!-- End Header content of the web app -->
+
+        <!-- Start Header content of the web app -->
+        <main class="d-flex flex-column">
+            <aside class="float-right">
+                <nav class="d-flex justify-content-end" aria-label="breadcrumb">
+                    <ol class="breadcrumb bg-transparent">
+                        <li class="breadcrumb-item"><a class="text-dark" href="#"><span class="fas fa-home"></span></a></li>
+                        <li class="breadcrumb-item"><a class="text-dark" href="#"><span class="">Page précédente</span></a></li>
+                        <li class="breadcrumb-item active" aria-current="page"><span class="text-dark font-weight-bold">Bactériologie</span></li>
+                    </ol>
+                </nav>
+            </aside>
+            <div class="float-left">
+                <button class="btn btn-sm btn-dark">
+                    <span class="fas fa-cogs fa-spin"></span>
+                </button>
+            </div>
+            <section class="mt-4 pl-3 pr-3 pl-sm-5 pr-sm-5">
+                <div class="card mb-3 border-dark">
+                    <div class="card-header p-2 border-dark">
+                        <div id="media1" class="media border border-dark p-2">
+                            <div class="userPicture bg-dark text-light d-flex justify-content-center ml-1 mr-3">
+                                <div class="align-self-center">
+                                    <span class="fas fa-user fa-3x pb-1"></span>
+                                </div>
+                            </div>
+                            <div class="media-body">
+                                <h5 class="mt-0 card-title"><span class="">Pourquoi devrais-je apprendre le microprocesseur?</span></h5>
+                                <p class=""><span class="">Papa chéri -- Il y a 10 jours</span></p>
+                            </div>
+                        </div>
+                        <div class="media p-2">
+                            <div class="userPicture ml-1 mr-3">
+                                <div class="align-self-center">&nbsp;</div>
+                            </div>
+                            <div class="media-body card-text">
+                                <div class="text-justify mr-3">
+                                    <p class=""><span class="">Salut les gars!</span></p>
+                                    <p class=""><span class="">Cela fait maintenant 3 semaines que je suis ce cours mais
+                                        je ne peux pas le comprendre complètement. Je crains que mon cgpa ne tombe à
+                                        cause de ce cours.</span></p>
+                                    <p class=""><span class="">Que pouvez-vous me suggérer de faire?</span></p>
+                                </div>
+                                <div class="">
+                                    <div class="d-flex justify-content-between mr-3">
+                                        <div class="d-flex">
+                                            <div class="">
+                                                <span class="far fa-thumbs-up fa-2x"></span>
+                                            </div>
+                                            <div class="ml-2 align-self-center">
+                                                <span class="">15</span>
+                                                <span class="">J'aime</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="">
+                                                <span class="far fa-thumbs-down fa-2x"></span>
+                                            </div>
+                                            <div class="ml-2 align-self-center">
+                                                <span class="">15</span>
+                                                <span class="">Je n'aime pas</span>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="">
+                                                <span class="fas fa-flag fa-sm-2x"></span>
+                                            </div>
+                                            <div class="ml-2 align-self-center">
+                                                <span class="">1</span>
+                                                <span class="">Rapport</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body ml-2">
+                        <ul class="list-unstyled mb-0">
+                            <li class="">
+                                <div class="media">
+                                    <div class="userPicture border border-dark bg-white text-dark d-flex justify-content-center ml-1 mr-3">
+                                        <div class="align-self-center">
+                                            <span class="fas fa-user fa-2x pb-1"></span>
+                                        </div>
+                                    </div>
+                                    <div class="media-body d-flex align-self-center">
+                                        <p class="card-title"><span class="">Ayamba yamba -- il y a 10 jours</span></p>
+                                    </div>
+                                </div>
+                                <div class="media mt-0 p-2">
+                                    <div class="userPicture mr-sm-3">
+                                        <div class="align-self-center">&nbsp;</div>
+                                    </div>
+                                    <div class="media-body card-text">
+                                        <div class="text-justify mr-3">
+                                            <p class=""><span class="">Salut !</span></p>
+                                            <p class="">
+                                                <span class="">S'il vous plaît soyez un peu poli avec votre message.
+                                                    Vous ne pouvez pas appeler tout le monde mec. Pour répondre à votre
+                                                    question, il suffit de laisser tomber le cours et de courir très
+                                                    loin de l’école.</span>
+                                            </p>
+                                        </div>
+                                        <div class="">
+                                            <div class="d-flex justify-content-between mr-3">
+                                                <div class="d-flex">
+                                                    <div class="">
+                                                        <span class="far fa-thumbs-up fa-2x"></span>
+                                                    </div>
+                                                    <div class="ml-2 align-self-center">
+                                                        <span class="">47</span>
+                                                        <span class="">J'aime</span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <div class="">
+                                                        <span class="far fa-thumbs-down fa-2x"></span>
+                                                    </div>
+                                                    <div class="ml-2 align-self-center">
+                                                        <span class="">2</span>
+                                                        <span class="">Je n'aime pas</span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <div class="">
+                                                        <span class="far fa-flag fa-2x"></span>
+                                                    </div>
+                                                    <div class="ml-2 align-self-center">
+                                                        <span class="">0</span>
+                                                        <span class="">Rapport</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr class="bg-dark">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="media">
+                                    <div class="userPicture border border-dark bg-white text-dark d-flex justify-content-center ml-1 mr-3">
+                                        <div class="align-self-center">
+                                            <span class="fas fa-user fa-2x pb-1"></span>
+                                        </div>
+                                    </div>
+                                    <div class="media-body d-flex align-self-center">
+                                        <p class="card-title"><span class="">Biface -- il y a 7 jours</span></p>
+                                    </div>
+                                </div>
+                                <div class="media mt-0 p-2">
+                                    <div class="userPicture mr-sm-3">
+                                        <div class="align-self-center">&nbsp;</div>
+                                    </div>
+                                    <div class="media-body card-text">
+                                        <div class="text-justify mr-3">
+                                            <p class="">
+                                                <span class="">Salut les gars ! J'ai également du mal à comprendre ce
+                                                    cours. Que Dieu nous aide à réussir cette classe. :(</span>
+                                            </p>
+                                        </div>
+                                        <div class="">
+                                            <div class="d-flex justify-content-between mr-3">
+                                                <div class="d-flex">
+                                                    <div class="">
+                                                        <span class="far fa-thumbs-up fa-2x"></span>
+                                                    </div>
+                                                    <div class="ml-2 align-self-center">
+                                                        <span class="">15</span>
+                                                        <span class="">J'aime</span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <div class="">
+                                                        <span class="far fa-thumbs-down fa-2x"></span>
+                                                    </div>
+                                                    <div class="ml-2 align-self-center">
+                                                        <span class="">1</span>
+                                                        <span class="">Je n'aime pas</span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <div class="">
+                                                        <span class="far fa-flag fa-2x"></span>
+                                                    </div>
+                                                    <div class="ml-2 align-self-center">
+                                                        <span class="">0</span>
+                                                        <span class="">Rapport</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr class="bg-dark">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="media">
+                                    <div class="userPicture border border-dark bg-white text-dark d-flex justify-content-center ml-1 mr-3">
+                                        <div class="align-self-center">
+                                            <span class="fas fa-user fa-2x pb-1"></span>
+                                        </div>
+                                    </div>
+                                    <div class="media-body d-flex align-self-center">
+                                        <p class="card-title"><span class="">FMI -- il y a 4 jours</span></p>
+                                    </div>
+                                </div>
+                                <div class="media mt-0 p-2">
+                                    <div class="userPicture mr-sm-3">
+                                        <div class="align-self-center">&nbsp;</div>
+                                    </div>
+                                    <div class="media-body card-text">
+                                        <div class="text-justify mr-3">
+                                            <p class=""><span class="">Juste une connerie!</span></p>
+                                        </div>
+                                        <div class="">
+                                            <div class="d-flex justify-content-between mr-3">
+                                                <div class="d-flex">
+                                                    <div class="">
+                                                        <span class="far fa-thumbs-up fa-2x"></span>
+                                                    </div>
+                                                    <div class="ml-2 align-self-center">
+                                                        <span class="">0</span>
+                                                        <span class="">J'aime</span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <div class="">
+                                                        <span class="far fa-thumbs-down fa-2x"></span>
+                                                    </div>
+                                                    <div class="ml-2 align-self-center">
+                                                        <span class="">103</span>
+                                                        <span class="">Je n'aime pas</span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <div class="">
+                                                        <span class="fas fa-flag fa-2x"></span>
+                                                    </div>
+                                                    <div class="ml-2 align-self-center">
+                                                        <span class="">15</span>
+                                                        <span class="">Reports</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr class="bg-dark">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="">
+                                <div class="media">
+                                    <div class="userPicture border border-dark bg-white text-dark d-flex justify-content-center ml-1 mr-3">
+                                        <div class="align-self-center">
+                                            <span class="fas fa-user fa-2x pb-1"></span>
+                                        </div>
+                                    </div>
+                                    <div class="media-body d-flex align-self-center">
+                                        <p class="card-title"><span class="">PL Lomengo -- Il y a 4 jours</span></p>
+                                    </div>
+                                </div>
+                                <div class="media mt-0 p-2">
+                                    <div class="userPicture mr-sm-3">
+                                        <div class="align-self-center">&nbsp;</div>
+                                    </div>
+                                    <div class="media-body card-text">
+                                        <div class="text-justify mr-3">
+                                            <p class="">
+                                                <span class="">Vous me faites tous rire fort. :) :) :) :)</span>
+                                            </p>
+                                        </div>
+                                        <div class="">
+                                            <div class="d-flex justify-content-between mr-3">
+                                                <div class="d-flex">
+                                                    <div class="">
+                                                        <span class="far fa-thumbs-up fa-2x"></span>
+                                                    </div>
+                                                    <div class="ml-2 align-self-center">
+                                                        <span class="">8</span>
+                                                        <span class="">J'aime</span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <div class="">
+                                                        <span class="far fa-thumbs-down fa-2x"></span>
+                                                    </div>
+                                                    <div class="ml-2 align-self-center">
+                                                        <span class="">12</span>
+                                                        <span class="">Je n'aime pas</span>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex">
+                                                    <div class="">
+                                                        <span class="far fa-flag fa-2x"></span>
+                                                    </div>
+                                                    <div class="ml-2 align-self-center">
+                                                        <span class="">0</span>
+                                                        <span class="">Rapport</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <hr class="bg-dark">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="text-center">
+                            <button class="btn btn-outline-dark" type="button">
+                                <span class="">Charger plus</span>
+                                <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <section id="comment" class="bg-dark d-flex justify-content-around pr-3 pl-3 mb-3">
+                    <div id="boxUser" class="align-self-center">
+                        <div class="userPicture bg-white text-dark align-self-center d-flex justify-content-center ml-1 mr-3">
+                            <div class="align-self-center">
+                                <span class="fas fa-user fa-2x"></span>
+                            </div>
+                        </div>
+                        <div class="text-center font-weight-bold text-light ml-1 mr-3"><span class="">LNR</span></div>
+                    </div>
+                    <form class="flex-grow-1">
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Commenter..."></textarea>
+                        </div>
+                    </form>
+                    <div class="w-15 ml-3 mt-4">
+                        <button type="button" class="btn btn-white btn-block">
+                            <span class="">Répondre</span>
+                        </button>
+                    </div>
+                </section>
+            </section>
+            <div id="top" class="bg-dark d-flex justify-content-center">
+                <a href="#headerApp" class="d-flex flex-column align-self-center">
+                    <span class="fas fa-rocket fa-rotate-minus-45 text-center text-light"></span>
+                </a>
+            </div>
+        </main>
+        <!-- End Header content of the web app -->
+
+        <!-- Start Footer content of the web app -->
+        <footer class="mt-1 text-light">
+            <section class="d-flex flex-wrap justify-content-around pt-1">
+                <div class="">
+                    <div class="">
+                        <span class="">NAVIGATION</span>
+                        <hr class="bg-light mt-0 mb-1">
+                    </div>
+                    <div class="d-flex">
+                        <div class="mr-2">
+                            <div class="">
+                                <a class="text-white" href="../index.html">
+                                    <span class="">Accueil</span>
+                                </a>
+                            </div>
+                            <div class="">
+                                <a class="text-white" href="listcourses.html">
+                                    <span class="">Cours</span>
+                                </a>
+                            </div>
+                            <div class="">
+                                <a class="text-white" href="listarticles.html">
+                                    <span class="">Articles</span>
+                                </a>
+                            </div>
+                            <div class="">
+                                <a class="text-white" href="gallery.html">
+                                    <span class="">Galerie</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ml-3">
+                            <div class="">
+                                <a class="text-white" href="about.html"><span class="">A&nbsp;propos</span></a>
+                            </div>
+                            <div class="">
+                                <a class="text-white" href="contact.html"><span class="">Contact</span></a>
+                            </div>
+                            <div class="">
+                                <a class="text-white" href="forum.html"><span class="">Forums</span></a>
+                            </div>
+                            <div class="">
+                                <a class="text-white" href="faqs.html"><span class="">FAQs</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-5 w-md-0">&nbsp;</div>
+                <div class="">
+                    <div class="">
+                        <span class="">PLAN DU SITE</span>
+                        <hr class="bg-light mt-0 mb-1">
+                    </div>
+                    <div class="">
+                        <a class="text-white popup-sitemap" href="../img/sitemap_fr.jpg"><span class="">Voir</span></a>
+                    </div>
+                    <div class="">
+                        <a class="text-white" href="../img/sitemap_fr.jpg" download><span class="">Télécharger</span></a>
+                    </div>
+                </div>
+                <div class="w-5 w-md-0">&nbsp;</div>
+                <div class="d-flex justify-content-between">
+                    <div class="align-self-center">
+                        <div class="text-center d-flex flex-column align-self-center justify-content-center">
+                            <span class="fas fa-envelope-open-text fa-2x fa-md-3x"></span>
+                        </div>
+                        <div class="text-light d-flex justify-content-center">
+                            <a class="text-white" href="#" data-toggle="modal" data-target="#modalNewsletter"><span class="">Abonnement</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="">
+                        <span class="">CONTACT</span>
+                        <hr class="bg-light mt-0 mb-1">
+                    </div>
+                    <div class="">
+                        <span class="">Téléphone: </span>
+                        <a class="text-white" href="tel:+243895789600"><span class="">+243895789600</span></a>
+                    </div>
+                    <div class="">
+                        <span class="">E-mail: </span>
+                        <a class="text-white" href="mailto:jean@podo.fr"><span class="">jean@podo.fr</span></a>
+                    </div>
+                </div>
+                <div class="d-flex d-md-block align-self-center">
+                    <div class="d-flex">
+                        <div class="">
+                            <div class="bg-light text-dark rounded-circle text-center d-flex flex-column align-self-center justify-content-center">
+                                <span class="fab fa-facebook-f fa-md-2x"></span>
+                            </div>
+                        </div>
+                        <div class="ml-2">
+                            <div class="bg-light text-dark rounded-circle text-center d-flex flex-column align-self-center justify-content-center">
+                                <span class="fab fa-google-plus-g fa-md-2x"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex ml-2 mt-md-3 ml-md-0">
+                        <div class="">
+                            <div class="bg-light text-dark rounded-circle text-center d-flex flex-column align-self-center justify-content-center">
+                                <span class="fab fa-instagram fa-md-2x"></span>
+                            </div>
+                        </div>
+                        <div class="ml-2">
+                            <div class="bg-light text-dark rounded-circle text-center d-flex flex-column align-self-center justify-content-center">
+                                <span class="fab fa-twitter fa-md-2x"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-3 mt-md-1">
+                <aside class="text-center">
+                    <div class="">
+                        <span class="fas fa-copyright fa-2x"></span>
+                    </div>
+                </aside>
+                <div class="d-flex justify-content-around mt-4">
+                    <a class="text-white" href="privacypolicy.html"><span class="">Règles de confidentialité</span></a>
+                    <a><span class="fas fa-chevron-right"></span></a>
+                    <a class="text-white" href="termsandconditions.html"><span class="">Conditions générales</span></a>
+                    <a><span class="fas fa-chevron-right"></span></a>
+                    <a>
+                        <span class="">&copy; 2019 Jean Luamba. Tous droits réservés.</span>
+                    </a>
+                </div>
+                <p class="text-center mt-2 pb-1">Créé par <a class="text-white" href="#"><span class="">Ridi Luamba</span></a></p>
+            </section>
+        </footer>
+        <!-- End Footer content of the web app -->
+
+        <!-- Start Modal Newsletter -->
+        <div class="modal fade" id="modalNewsletter" tabindex="-1" role="dialog" aria-labelledby="modalNewsletterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered d-flex justify-content-center" role="document">
+                <div class="modal-content p-1 text-dark w-85">
+                    <div class="text-white rounded-circle text-center d-flex flex-column align-self-end justify-content-end">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span class="far fa-times-circle text-light"></span>
+                        </button>
+                    </div>
+                    <div class="modal-header border-0 d-flex flex-column text-center pb-0">
+                        <div class="bg-white text-dark rounded-circle text-center d-flex flex-column align-self-center justify-content-center">
+                            <span class="fas fa-envelope fa-3x"></span>
+                        </div>
+                        <h4 class="w-100 modal-title" id="exampleModalCenterTitle"><span class="">BULLETIN</span></h4>
+                        <p class="w-100 mb-2"><span class="">Restez au courant de nos actualités, de nos articles et de nos cours</span></p>
+                    </div>
+                    <form class="modal-body pt-0 pb-0 d-flex justify-content-center">
+                        <div class="">
+                            <div class="">
+                                <div class="form-group mb-0">
+                                    <!--<label for="exampleInputEmail1"></label>-->
+                                    <input type="email" class="form-control" id="emailNewsletter" aria-describedby="emailHelp" placeholder="Votre adresse email">
+                                    <small id="emailHelp" class="form-text text-danger text-center mt-0">*Votre email est en sécurité avec moi. Je ne spam pas</small>
+                                </div>
+                            </div>
+                            <div class="modal-footer border-0 pt-1 mb-2 d-flex justify-content-center">
+                                <button type="submit" class="btn btn-dark btn-block">
+                                    <span class="">INSCRIVEZ-VOUS MAINTENANT</span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Modal Newsletter -->
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+        <!--<script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>-->
+        <!--<script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>-->
+        <!--<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>-->
+        <script type="text/javascript" src="../js/jquery/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/jquery/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="../js/jquery/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="../slick/slick.min.js"></script>
+        <!-- Magnific Popup core JS file -->
+        <script type="text/javascript" src="../magnific-popup/jquery.magnific-popup.js"></script>
+        <script type="text/javascript" src="../js/custom/main.js"></script>
+
+        <!-- HTML 5 BOILER TEMPLATE SCRIPTS -->
+        <!--
+                <script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
+                <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}"
+                        crossorigin="anonymous"></script>
+                <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+                <script src="../js/plugins.js"></script>
+                <script src="../js/main.js"></script>
+        -->
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <!--
+                <script>
+                    window.ga = function () {
+                        ga.q.push(arguments)
+                    };
+                    ga.q = [];
+                    ga.l = +new Date;
+                    ga('create', 'UA-XXXXX-Y', 'auto');
+                    ga('send', 'pageview')
+                </script>
+                <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+        -->
+    </body>
+</html>

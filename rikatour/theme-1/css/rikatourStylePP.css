@@ -1,0 +1,70 @@
+.subtitleContent{
+    font-size: medium;
+    font-weight: normal;
+}
+.paymentPageTitle{
+    font-size: 2.1rem;
+}
+.headerLeftHL > .subtitleContent:first-child{
+    font-weight: normal;
+}
+.headerLeftHL .subtitleContent:last-child{
+    font-weight: bolder;
+}
+.boldWeight{
+    font-weight: bold;
+}
+#tablePayment{
+    min-width: 760px;
+}
+.separatorHeader, .separatorBodyRow, .separatorFooter{
+    width: 625px;
+}
+.separatorHeader, .separatorFooter{
+    border: 1px solid  #ff6633;
+}
+.separatorHeader{
+    margin-top: -10px;
+}
+.expiryDateIconStyle > input{
+    border-right-color: transparent;
+}
+.expiryDateIconStyle span{
+    background-color: transparent;
+    border: 1px solid #999;
+}
+.textPaymentButton{
+    font-size: x-large;
+}
+.buttonFormPayment{
+    position: absolute;
+    margin-left: -85px;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    background-color: #0099cc;
+    padding: 7px 25px 7px 5px;
+    color: #fff;
+}
+.buttonFormPayment i{
+    background-color: #fff;
+    color: #0099cc;
+    border-radius: 50%;
+    padding: 4px 8px;
+}
+.expiryDateIconStyle > span > i{
+    color: #999;
+    font-size: 20px;
+    font-weight: 600;
+}
+#sectionForm{
+    width: 860px;
+}
+#paymentFormDiv{
+    padding-left: 65px;
+}
+.paymentForm{
+    width: 40%;
+}
+.titlePaymentForm{
+    margin-top: 3px;
+}

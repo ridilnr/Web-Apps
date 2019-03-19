@@ -1,0 +1,9 @@
+
+
+.cen{
+	float: left;
+	 width: 35%; 
+	 height: 90%; 
+	 display: inline-flex;
+	  padding-top: 10%;
+}

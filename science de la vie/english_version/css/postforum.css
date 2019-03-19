@@ -1,0 +1,144 @@
+.fa-rotate-minus-45 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+.far.fa-flag, .far.fa-thumbs-down, .far.fa-thumbs-up {
+  font-size: 1.5em; }
+
+.bg-white {
+  background-color: #fff; }
+
+.btn-white {
+  color: #000;
+  background-color: #fff; }
+
+body header {
+  background-color: #fff; }
+  body header section {
+    border-bottom: 1px solid #000; }
+    body header section div img {
+      width: 60px;
+      height: 60px; }
+    body header section div:last-child, body header section form {
+      margin-top: 15px; }
+  body header nav {
+    background-color: #000;
+    font-size: x-small;
+    min-height: 5.5em; }
+    body header nav div a.linkPage .constWidthHeight {
+      width: 28px;
+      height: 28px; }
+    body header nav a.linkPage {
+      text-decoration: none;
+      color: #000; }
+    body header nav a.linkPage:hover, body header nav a.linkPage.active {
+      font-weight: bold; }
+      body header nav a.linkPage:hover div:first-child div:first-child, body header nav a.linkPage.active div:first-child div:first-child {
+        background-color: transparent !important;
+        color: #fff;
+        border: 1px solid #fff; }
+body main aside nav ol.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f101";
+  display: inline-block;
+  font-weight: bold; }
+body main section {
+  min-height: 100px;
+  border-bottom: 1px solid #000; }
+  body main section .card .card-header .media:first-child .userPicture {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%; }
+  body main section .card .card-header .media:last-child .userPicture {
+    width: 0;
+    height: 0; }
+  body main section .card .card-header #media1 {
+    background-color: #fff; }
+  body main section .card .card-body div.media:first-child .userPicture {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%; }
+  body main section .card .card-body div.media:last-child .userPicture {
+    width: 0px;
+    height: 0px;
+    border-radius: 100%; }
+  body main section section div .userPicture {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%; }
+body main #top {
+  position: fixed;
+  bottom: 280px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%; }
+  body main #top div > span.fas.fa-rocket {
+    font-size: large; }
+body footer {
+  background-color: #000; }
+  body footer section:first-child div:last-child div div {
+    width: 35px;
+    height: 35px; }
+    body footer section:first-child div:last-child div div .fab.fa-facebook-f, body footer section:first-child div:last-child div div .fab.fa-google-plus-g,
+    body footer section:first-child div:last-child div div .fab.fa-instagram, body footer section:first-child div:last-child div div .fab.fa-twitter {
+      font-size: 1.5em; }
+  body footer section:last-child aside {
+    border-bottom: 1px solid #fff;
+    margin-top: -40px; }
+    body footer section:last-child aside div {
+      z-index: 99;
+      position: relative;
+      top: 20px; }
+body #modalNewsletter .modal-dialog .modal-content {
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: gray; }
+  body #modalNewsletter .modal-dialog .modal-content .modal-header .modal-title {
+    text-align: center; }
+  body #modalNewsletter .modal-dialog .modal-content .modal-header div {
+    position: absolute;
+    top: -40px;
+    width: 70px;
+    height: 70px; }
+  body #modalNewsletter .modal-dialog .modal-content .modal-body #emailNewsletter {
+    width: 320px; }
+  body #modalNewsletter .modal-dialog .modal-content .modal-footer button {
+    border-radius: 10px; }
+
+/* extra-small */
+@media (min-width: 476px) {
+  .far.fa-flag.fa-2x {
+    font-size: 2em !important; } }
+/* small */
+@media (min-width: 576px) {
+  nav {
+    font-size: small !important; }
+
+  .card-header .media:last-child .userPicture {
+    width: 70px !important;
+    height: 70px !important; }
+
+  .card-body div.media:last-child .userPicture {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 100%; } }
+/* medium */
+@media (min-width: 768px) {
+  nav {
+    font-size: medium !important;
+    min-height: 110px !important; }
+    nav div a.linkPage .constWidthHeight {
+      width: 60px !important;
+      height: 60px !important; }
+
+  footer {
+    background-color: #000; }
+    footer section:first-child div:last-child div div {
+      width: 45px !important;
+      height: 45px !important; } }
+/* large */
+/* extra large */
+
+/*# sourceMappingURL=postforum.css.map */

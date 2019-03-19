@@ -1,0 +1,117 @@
+.margin-left-10{
+    margin-left: 10px;
+}
+.separator{
+    border: 1px solid #fff;
+}
+.separator2{
+    border: 1px solid #336666;
+}
+.textBelowSearch{
+    padding: 10px 0px;
+    color: #fff;
+}
+.bigBoxImage1{
+    height: 350px;
+}
+.smallBoxImage{
+    height: 250px;
+}
+.whiteColor{
+    color: #fff;
+}
+.yellowColor{
+    color: yellow;
+}
+.img_thumb_overlay{
+    font-size: x-large;
+}
+.fontSizeLarge{
+    font-size: large;
+}
+.fontSizeMedium{
+    font-size: medium;
+}
+.marginLeft{
+    margin-left: 20px;
+}
+.hi-icon-effect-5a{
+    margin-top: 10px;
+}
+.payment_method{
+    margin-top: 0px;
+}
+.flexBoxCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flexBoxNormal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flexBoxNormalSmall{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+.flexBoxCenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: large;
+}
+.flexBoxCenter div:last-child{
+    margin-left: 20px;
+}
+.borderOverlay{
+    height: 200px;
+}
+.all-border{
+    border: 1px solid #336666;
+}
+.setBackground2{
+    background-color: rgba(0, 153, 153, 0.5);
+}
+.btn_green_dark{
+    background-color: #336666;
+    color: #fff;
+}
+.main_content_form{
+    margin: 15px 0px;
+    padding: 15px;
+    border: 1px solid #336666;
+}
+.col-custom{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-24{
+    max-width: 24%;
+}
+.col-4{
+    max-width: 4%;
+}
+.divDecorativeImg{
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 50px;
+}
+.carousel-indicators .active{
+    background-color: #336666;
+}
+.carousel-indicators li, .carousel-indicators .active{
+    width: 25px;
+}
+
+#containerText{
+    padding-top: 50px;
+}
+#containerIntro{
+    min-height: 300px;
+}

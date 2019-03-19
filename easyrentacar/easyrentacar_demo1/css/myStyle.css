@@ -1,0 +1,29 @@
+#responsivemenu a, #responsivemenu ul li a, .space-bot .wrapaction .text-center, .royalheader, .subtitles, .bottomlink a:hover, .da-slide a:hover{
+    color: #ff6633;
+}
+#responsivemenu li a:hover, #responsivemenu li a:focus, #responsivemenu .active, #responsivemenu > li > a > i{
+    color: #fff;
+}
+#responsivemenu ul, a.prev:hover, a.next:hover, .bottomlink a:hover, .da-slide a:hover{
+    background-color: #fff;
+}
+.da-slide .da-link, .title.hometitlebg, .da-dots span, .bottomlink a, .back-top.floatright, #responsivemenu li a:hover,
+#responsivemenu li a:focus, #responsivemenu .active{
+    background-color: #ff6633;
+}
+.menuSubMenu{
+    display: none;
+    width: 175px;
+}
+.undermenuarea{
+    background: #ff6633 url(../images/noise.png) repeat;
+}
+.bottomlink a:hover{
+    border: 1px solid #ff6633;
+}
+.wrapaction{
+    border-left: 2px solid #ff6633;
+}
+.royalheader, .subtitles {
+    font-weight: bolder;
+}
