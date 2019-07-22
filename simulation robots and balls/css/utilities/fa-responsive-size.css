@@ -1,0 +1,170 @@
+/* small */
+@media (min-width: 576px) {
+  .fa-sm-lg {
+    font-size: 1.33333em;
+    line-height: 0.75em;
+    vertical-align: -.0667em; }
+
+  .fa-sm-xs {
+    font-size: .75em; }
+
+  .fa-sm-sm {
+    font-size: .875em; }
+
+  .fa-sm-1x {
+    font-size: 1em; }
+
+  .fa-sm-2x {
+    font-size: 2em; }
+
+  .fa-sm-3x {
+    font-size: 3em; }
+
+  .fa-sm-4x {
+    font-size: 4em; }
+
+  .fa-sm-5x {
+    font-size: 5em; }
+
+  .fa-sm-6x {
+    font-size: 6em; }
+
+  .fa-sm-7x {
+    font-size: 7em; }
+
+  .fa-sm-8x {
+    font-size: 8em; }
+
+  .fa-sm-9x {
+    font-size: 9em; }
+
+  .fa-sm-10x {
+    font-size: 10em; } }
+/* medium */
+@media (min-width: 768px) {
+  .fa-md-lg {
+    font-size: 1.33333em;
+    line-height: 0.75em;
+    vertical-align: -.0667em; }
+
+  .fa-md-xs {
+    font-size: .75em; }
+
+  .fa-md-sm {
+    font-size: .875em; }
+
+  .fa-md-1x {
+    font-size: 1em; }
+
+  .fa-md-2x {
+    font-size: 2em; }
+
+  .fa-md-3x {
+    font-size: 3em; }
+
+  .fa-md-4x {
+    font-size: 4em; }
+
+  .fa-md-5x {
+    font-size: 5em; }
+
+  .fa-md-6x {
+    font-size: 6em; }
+
+  .fa-md-7x {
+    font-size: 7em; }
+
+  .fa-md-8x {
+    font-size: 8em; }
+
+  .fa-md-9x {
+    font-size: 9em; }
+
+  .fa-md-10x {
+    font-size: 10em; } }
+/* large */
+@media (min-width: 992px) {
+  .fa-lg-lg {
+    font-size: 1.33333em;
+    line-height: 0.75em;
+    vertical-align: -.0667em; }
+
+  .fa-lg-xs {
+    font-size: .75em; }
+
+  .fa-lg-sm {
+    font-size: .875em; }
+
+  .fa-lg-1x {
+    font-size: 1em; }
+
+  .fa-lg-2x {
+    font-size: 2em; }
+
+  .fa-lg-3x {
+    font-size: 3em; }
+
+  .fa-lg-4x {
+    font-size: 4em; }
+
+  .fa-lg-5x {
+    font-size: 5em; }
+
+  .fa-lg-6x {
+    font-size: 6em; }
+
+  .fa-lg-7x {
+    font-size: 7em; }
+
+  .fa-lg-8x {
+    font-size: 8em; }
+
+  .fa-lg-9x {
+    font-size: 9em; }
+
+  .fa-lg-10x {
+    font-size: 10em; } }
+/* extra large */
+@media (min-width: 1200px) {
+  .fa-xl-lg {
+    font-size: 1.33333em;
+    line-height: 0.75em;
+    vertical-align: -.0667em; }
+
+  .fa-xl-xs {
+    font-size: .75em; }
+
+  .fa-xl-sm {
+    font-size: .875em; }
+
+  .fa-xl-1x {
+    font-size: 1em; }
+
+  .fa-xl-2x {
+    font-size: 2em; }
+
+  .fa-xl-3x {
+    font-size: 3em; }
+
+  .fa-xl-4x {
+    font-size: 4em; }
+
+  .fa-xl-5x {
+    font-size: 5em; }
+
+  .fa-xl-6x {
+    font-size: 6em; }
+
+  .fa-xl-7x {
+    font-size: 7em; }
+
+  .fa-xl-8x {
+    font-size: 8em; }
+
+  .fa-xl-9x {
+    font-size: 9em; }
+
+  .fa-xl-10x {
+    font-size: 10em; } }
+
+/*# sourceMappingURL=fa-responsive-size.css.map */

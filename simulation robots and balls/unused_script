@@ -1,0 +1,137 @@
+let inc, x, interval, numSquare, spanX, spanY, spanCountSquare, spanTotalSquare, spanNumberPath, divInfoSimulation,
+	buttonStartSimulation, buttonStopSimulation, buttonResetSimulation, inputSpeed, intervalSpeed, randPath, pos;
+
+const canvas = document.querySelector("#canvasEnvironment");
+const ctx = canvas.getContext("2d");
+inc = 0;
+x = 35;
+y = 35;
+interval = null;
+numSquare = 0;
+spanX = document.querySelector(".posX");
+spanY = document.querySelector(".posY");
+spanCountSquare = document.querySelector(".countSquare");
+spanTotalSquare = document.querySelector(".totalSquare");
+spanNumberPath = document.querySelector(".numberPath");
+divInfoSimulation = document.querySelector("#infoSimulation");
+buttonStartSimulation = document.querySelector(".initializeSimulation");
+buttonStopSimulation = document.querySelector(".stopSimulation");
+buttonResetSimulation = document.querySelector(".resetSimulation");
+inputSpeed = document.querySelector("#time");
+intervalSpeed = inputSpeed.value;
+randPath = [];
+pos = [];
+
+
+buttonStartSimulation.addEventListener("click", function (e) {
+	divInfoSimulation.style.display = "block";
+	canvas.style.display = "block";
+	randPath = getPath();
+	drawEnvironment();
+	interval = setInterval(draw, (intervalSpeed * 1000));
+});
+
+buttonStopSimulation.addEventListener("click", function () {
+	clearInterval(interval);
+});
+
+buttonResetSimulation.addEventListener("click", function (e) {
+	location.reload(true);
+});
+
+inputSpeed.addEventListener("input", function () {
+	intervalSpeed = inputSpeed.value;
+});
+
+
+function drawEnvironment() {
+	//Start drawing the environment
+	let count = 0;
+	ctx.clearRect(0, 0, canvas.width, canvas.height);
+	ctx.beginPath();
+	ctx.fillStyle = "rgba(255, 255, 255, 0)";
+	for(let y=10; y<=430; y+=60)
+		for(let x=10; x<=430; x+=60){
+			ctx.fillRect(x, y, 50, 50);
+			count++;
+		}
+	ctx.closePath();
+	ctx.fill();
+	ctx.save();
+	numSquare = count;
+	spanTotalSquare.innerHTML = numSquare.toString();
+}
+
+function drawCircle(x, y) {
+	//Start drawing the robot
+	//ctx.save();
+	ctx.fillStyle = "red";
+	ctx.beginPath();
+	ctx.arc(x, y, 10, 0, 2 * Math.PI);
+	ctx.closePath();
+	ctx.fill();
+	// ctx.restore();
+}
+
+function draw() {
+	ctx.clearRect(0, 0, canvas.width, canvas.height);
+	drawEnvironment();
+	x = randPath[inc][0];
+	y = randPath[inc][1];
+	inc += 1;
+	if(inc === randPath.length)
+		clearInterval(interval);
+	drawCircle(x, y);
+	spanX.innerHTML = x.toString();
+	spanY.innerHTML = y.toString();
+	spanCountSquare.innerHTML = inc.toString();
+}
+
+function getPath() {
+	const randNum = Math.floor(Math.random() * 6) + 1;
+	console.log("Length array = ", matrice_a.matrice_1.length);
+	console.log("Length array = ", matrice_a.matrice_2.length);
+	console.log("Length array = ", matrice_a.matrice_3.length);
+	console.log("Length array = ", matrice_a.matrice_4.length);
+	console.log("Length array = ", matrice_a.matrice_5.length);
+	console.log("Length array = ", matrice_a.matrice_6.length);
+
+	switch(randNum){
+		case 1:
+			spanNumberPath.innerHTML = randNum.toString();
+			return matrice_a.matrice_1;
+		case 2:
+			spanNumberPath.innerHTML = randNum.toString();
+			return matrice_a.matrice_2;
+		case 3:
+			spanNumberPath.innerHTML = randNum.toString();
+			return matrice_a.matrice_3;
+		case 4:
+			spanNumberPath.innerHTML = randNum.toString();
+			return matrice_a.matrice_4;
+		case 5:
+			spanNumberPath.innerHTML = randNum.toString();
+			return matrice_a.matrice_5;
+		case 6:
+			spanNumberPath.innerHTML = randNum.toString();
+			return matrice_a.matrice_6;
+	}
+}
+
+/*
+	if(startPointRobot1 === pointA) movPointA1(w, h);
+	else if(startPointRobot1 === pointB) movPointB1(w, h);
+	else if(startPointRobot1 === pointC) movPointC1(w, h);
+	else if(startPointRobot1 === pointD) movPointD1(w, h);
+*/
+
+/*
+window.requestAnimationFrame =  window.requestAnimationFrame ||
+								window.mozRequestAnimationFrame ||
+								window.webkitRequestAnimationFrame ||
+								window.oRequestAnimationFrame ||
+								window.msRequestAnimationFrame;
+*/
+// interval = window.requestAnimationFrame(draw1);
+// console.log("x1 = " + x1 + " & y1 = " + y1);
+// console.log("x2 = " + x2 + " & y2 = " + y2);

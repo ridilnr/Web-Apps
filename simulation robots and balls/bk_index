@@ -1,0 +1,299 @@
+let buttonStartSimulation, buttonStopSimulation, buttonResetSimulation, interval1, interval2, pointA, pointB, pointC,
+	pointD, x1, x2, y1, y2, stx1, stx2, sty1, sty2, dx1, dy1, dx2, dy2, count1, count2, startPointRobot1, startPointRobot2;
+
+const canvas = document.querySelector("#canvasEnvironment");
+const ctx = canvas.getContext("2d");
+const canvasMov = document.querySelector("#canvasMovement");
+const ctxMov = canvasMov.getContext("2d");
+count1 = count2 = 0;
+buttonStartSimulation = document.querySelector("#initializeSimulation");
+buttonStopSimulation = document.querySelector("#stopSimulation");
+buttonResetSimulation = document.querySelector("#resetSimulation");
+
+window.onload = function () {
+	const w = canvas.width;
+	const h = canvas.width;
+	setWidthAndHeightCanvas(w, h);
+	setStartingPoints(w, h);
+	dx1 = 2;
+	dy1 = 2;
+	dx2 = 2;
+	dy2 = 2;
+};
+
+buttonStartSimulation.addEventListener("click", () => {
+	positionOfRobots();
+	if(selectedNumRobot === 1){
+		// interval1 = setInterval(draw1, 10);
+		interval1 = window.requestAnimationFrame(draw1);
+	}
+	else if(selectedNumRobot === 2){
+		// interval1 = window.requestAnimationFrame(draw1);
+		// interval2 = window.requestAnimationFrame(draw2);
+		// interval1 = setInterval(draw1, 60);
+		// interval2 = setInterval(draw2, 120);
+	}
+	else
+		alert("Please select number of robot before starting the simulation!");
+});
+
+buttonStopSimulation.addEventListener("click", () => {
+	if(selectedNumRobot === 1){
+		cancelAnimationFrame(interval1);
+	}
+	else if(selectedNumRobot === 2){
+		// cancelAnimationFrame(interval1);
+		clearInterval(interval2);
+	}
+	else
+		alert("You should start the simulation first !");
+});
+
+buttonResetSimulation.addEventListener("click", () => location.reload(true) );
+//
+function drawRectangle1() {
+	ctx.beginPath();
+	ctx.rect(x1, y1, 20, 20);
+	ctx.fillStyle = "#FF0000";
+	ctx.fill();
+	ctx.closePath();
+}
+//
+function drawRectangle2() {
+	ctx.beginPath();
+	ctx.rect(x2, y2, 20, 20);
+	ctx.fillStyle = "#FF0000";
+	ctx.fill();
+	ctx.closePath();
+}
+//
+function drawCircle1() {
+	ctx.beginPath();
+	ctx.arc(x1, y1, 10, 0, 2*Math.PI);
+	ctx.fillStyle = "green";
+	ctx.fill();
+	ctx.closePath();
+}
+//
+function drawCircle2() {
+	ctx.beginPath();
+	ctx.arc(x2, y2, 10, 0, 2*Math.PI);
+	ctx.fillStyle = "green";
+	ctx.fill();
+	ctx.closePath();
+}
+//
+function drawLine1() {
+	ctxMov.beginPath();
+	ctxMov.moveTo(stx1, sty1);
+	ctxMov.lineTo(x1, y1);
+	ctxMov.stroke();
+	ctxMov.closePath();
+}
+//
+function drawLine2() {
+	ctxMov.beginPath();
+	ctxMov.moveTo(stx2, sty2);
+	ctxMov.lineTo(x2, y2);
+	ctxMov.stroke();
+	ctxMov.closePath();
+}
+//
+function draw1() {
+	const w = canvas.width;
+	const h = canvas.height;
+	ctx.clearRect(0, 0, w, h);
+	drawCircle1();
+	drawLine1();
+	startPointRobot1 === pointA ? movPointA1(w) :
+		startPointRobot1 === pointB ? movPointB1(w) :
+			startPointRobot1 === pointC ? movPointC1(w) :
+				startPointRobot1 === pointD ? movPointD1(w) : console.clear();
+	interval1 = requestAnimationFrame(draw1);
+}
+//
+function draw2() {
+	const w = canvas.width;
+	const h = canvas.height;
+	ctx.clearRect(0, 0, w, h);
+	drawCircle2();
+	drawLine2();
+	startPointRobot2 === pointA ? movPointA2(w) :
+		startPointRobot2 === pointB ? movPointB2(w) :
+			startPointRobot2 === pointC ? movPointC2(w) :
+				startPointRobot2 === pointD ? movPointD2(w) : console.clear();
+	interval2 = requestAnimationFrame(draw2);
+}
+//
+function positionOfRobots() {
+	if(selectedNumRobot === 1){
+		startPointRobot1 = pickRandomStartingPoint();
+		x1 = stx1 = startPointRobot1[0];
+		y1 = sty1 = startPointRobot1[1];
+	}
+	else if(selectedNumRobot === 2){
+		startPointRobot1 = pickRandomStartingPoint();
+		startPointRobot2 = pickRandomStartingPoint();
+		while(startPointRobot1 === startPointRobot2){
+			startPointRobot2 = pickRandomStartingPoint();
+		}
+		x1 = stx1 = startPointRobot1[0];
+		y1 = sty1 = startPointRobot1[1];
+		x2 = stx2 = startPointRobot2[0];
+		y2 = sty2 = startPointRobot2[1];
+	}
+}
+//
+function pickRandomStartingPoint() {
+	const randNum = Math.floor(Math.random() * 4) + 1;
+	switch(randNum){
+		case 1: return pointA;
+		case 2: return pointB;
+		case 3: return pointC;
+		case 4: return pointD;
+		default: return pointA;
+	}
+}
+//
+function setStartingPoints(w, h) {
+	pointA = [w/30, h/30];
+	pointB = [w-10, h/30];
+	pointC = [w/30, h-10];
+	pointD = [w-10, h-10];
+}
+//
+function setWidthAndHeightCanvas(w, h) {
+	canvas.setAttribute("width", w);
+	canvas.setAttribute("height", h);
+	canvasMov.setAttribute("width", w);
+	canvasMov.setAttribute("height", h);
+}
+//
+function movPointA1(w) {
+	if(Math.round(x1) === (w-10)){
+		alert("end");
+		cancelAnimationFrame(interval1);
+	}
+	if(count1 <= 140){
+		x1 += 0.1;
+		y1 += dy1;
+		count1++;
+	}else {
+		x1 += 0.1;
+		y1 -= dy1;
+		if((count1%140) === 0) count1 = 0;
+		count1++;
+	}
+}
+//
+function movPointB1(w) {
+	if(Math.round(x1) === (w/30)){
+		alert("end");
+		cancelAnimationFrame(interval1);
+	}
+	if(count1 <= 140){
+		x1 -= 0.1;
+		y1 += dy1;
+		count1++;
+	}else {
+		x1 -= 0.1;
+		y1 -= dy1;
+		if((count1%140) === 0) count1 = 0;
+		count1++;
+	}
+}
+//
+function movPointC1(w) {
+	if(Math.round(x1) === (w-10)){
+		alert("end");
+		cancelAnimationFrame(interval1);
+	}
+	if(count1 <= 140){
+		x1 += 0.1;
+		y1 -= dy1;
+		count1++;
+	}else {
+		x1 += 0.1;
+		y1 += dy1;
+		if((count1%140) === 0) count1 = 0;
+		count1++;
+	}
+}
+//
+function movPointD1(w) {
+	if(Math.round(x1) === (w/30)){
+		alert("end");
+		cancelAnimationFrame(interval1);
+	}
+	if(count1 <= 140){
+		x1 -= 0.1;
+		y1 -= dy1;
+		count1++;
+	}else {
+		x1 -= 0.1;
+		y1 += dy1;
+		if((count1%140) === 0) count1 = 0;
+		count1++;
+	}
+}
+//
+function movPointA2(w) {
+	if(Math.round(x2) === (w-10))
+		clearInterval(interval2);
+	if(count2 <= 140){
+		x2 += 0.1;
+		y2 += dy2;
+		count2++;
+	}else {
+		x2 += 0.1;
+		y2 -= dy2;
+		if((count2%140) === 0) count2 = 0;
+		count2++;
+	}
+}
+//
+function movPointB2(w) {
+	if(Math.round(x2) === (w/30))
+		clearInterval(interval2);
+	if(count2 <= 140){
+		x2 -= 0.1;
+		y2 += dy2;
+		count2++;
+	}else {
+		x2 -= 0.1;
+		y2 -= dy2;
+		if((count2%140) === 0) count2 = 0;
+		count2++;
+	}
+}
+//
+function movPointC2(w) {
+	if(Math.round(x2) === (w-10))
+		clearInterval(interval2);
+	if(count2 <= 140){
+		x2 += 0.1;
+		y2 -= dy2;
+		count2++;
+	}else {
+		x2 += 0.1;
+		y2 += dy2;
+		if((count2%140) === 0) count2 = 0;
+		count2++;
+	}
+}
+//
+function movPointD2(w) {
+	if(Math.round(x2) === (w/30))
+		clearInterval(interval2);
+	if(count2 <= 140){
+		x2 -= 0.1;
+		y2 -= dy2;
+		count2++;
+	}else {
+		x2 -= 0.1;
+		y2 += dy2;
+		if((count2%140) === 0) count2 = 0;
+		count2++;
+	}
+}
+//

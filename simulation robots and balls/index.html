@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simulation - Robots</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/utilities/opacity.css">
+    <link rel="stylesheet" type="text/css" href="css/utilities/extra-styles-bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/themes/default.css">
+</head>
+<body>
+    <header class="w-100 mt-1">
+        <svg class="w-100" viewBox="0 0 1000 80">
+            <polygon points="50,10 25,40 50,70 950,70 975,40 950,10"/>
+            <text x="17%" y="55%">Simultaneous Localization and Mapping of mobile Robots</text>
+        </svg>
+    </header>
+    <main class="d-flex justify-content-between flex-wrap h-100">
+        <section class="w-100 w-md-30 text-center">
+            <div class="divSettings pt-1 pb-1">
+                <h1 class="">SETTINGS</h1>
+            </div>
+            <div class="divOption bg-white">
+                <div>
+                    <hr class="mt-0 mb-0">
+                    <a class="text-decoration-none" data-toggle="collapse"
+                       href="#carouselBackground" role="button" aria-expanded="false"
+                       aria-controls="carouselBackground">
+                        <h2>Theme</h2>
+                    </a>
+                    <hr class="mt-0 mb-0">
+                </div>
+                <div id="carouselBackground" class="collapse carousel slide" data-ride="carousel">
+                    <div class="carousel-inner pt-1 pb-1">
+                        <div class="carousel-item active">
+                            <div class="d-flex">
+                                <div class="w-25">
+                                    <img src="img/background/bg-1.jpg" class="imgBackground img-fluid img-thumbnail"
+                                         data-theme="theme1">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/background/bg-2.jpg" class="imgBackground img-fluid img-thumbnail"
+                                         data-theme="theme2">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/background/bg-3.jpg" class="imgBackground img-fluid img-thumbnail"
+                                         data-theme="theme3">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/background/bg-4.png" class="imgBackground img-fluid img-thumbnail"
+                                         data-theme="theme4">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex">
+                                <div class="w-25">
+                                    <img src="img/background/bg-5.jpg" class="imgBackground img-fluid img-thumbnail"
+                                         data-theme="theme5">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/background/bg-6.jpg" class="imgBackground img-fluid img-thumbnail"
+                                         data-theme="theme6">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/background/bg-7.jpg" class="imgBackground img-fluid img-thumbnail"
+                                         data-theme="theme7">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/background/bg-8.jpg" class="imgBackground img-fluid img-thumbnail"
+                                         data-theme="theme8">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex">
+                                <div class="w-25">
+                                    <img src="img/background/bg-9.jpg" class="imgBackground img-fluid img-thumbnail"
+                                         data-theme="theme9">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/background/bg-10.jpg" class="imgBackground img-fluid img-thumbnail"
+                                         data-theme="theme10">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/background/bg-11.jpg" class="imgBackground img-fluid img-thumbnail"
+                                         data-theme="theme11">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/background/bg-12.jpg" class="imgBackground img-fluid img-thumbnail"
+                                         data-theme="theme12">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex">
+                                <div class="w-25">
+                                    <img src="img/background/bg-13.jpg" class="imgBackground img-fluid img-thumbnail"
+                                         data-theme="theme13">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/background/bg-14.jpg" class="imgBackground img-fluid img-thumbnail"
+                                         data-theme="theme14">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/background/bg-15.jpg" class="imgBackground img-fluid img-thumbnail"
+                                         data-theme="theme15">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/background/bg-16.jpg" class="imgBackground img-fluid img-thumbnail"
+                                         data-theme="theme16">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselBackground" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon indicators" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselBackground" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon indicators" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="divOption bg-white">
+                <div>
+                    <hr class="mt-0 mb-0">
+                    <a class="text-decoration-none" data-toggle="collapse"
+                       href="#carouselEnvironment" role="button" aria-expanded="false"
+                       aria-controls="carouselEnvironment">
+                        <h2>Environment</h2>
+                    </a>
+                    <hr class="mt-0 mb-0">
+                </div>
+                <div id="carouselEnvironment" class="collapse carousel slide" data-ride="carousel">
+                    <div class="carousel-inner pt-1 pb-1">
+                        <div class="carousel-item active">
+                            <div class="d-flex">
+                                <div class="w-25">
+                                    <img src="img/environment/env-1.jpg" class="imgEnvironment img-fluid img-thumbnail">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/environment/env-2.jpg" class="imgEnvironment img-fluid img-thumbnail">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/environment/env-3.jpg" class="imgEnvironment img-fluid img-thumbnail">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/environment/env-4.jpg" class="imgEnvironment img-fluid img-thumbnail">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex">
+                                <div class="w-25">
+                                    <img src="img/environment/env-5.jpg" class="imgEnvironment img-fluid img-thumbnail">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/environment/env-6.jpeg" class="imgEnvironment img-fluid img-thumbnail">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/environment/env-7.jpg" class="imgEnvironment img-fluid img-thumbnail">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/environment/env-8.jpg" class="imgEnvironment img-fluid img-thumbnail">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex">
+                                <div class="w-25">
+                                    <img src="img/environment/env-9.jpg" class="imgEnvironment img-fluid img-thumbnail">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/environment/env-10.jpg" class="imgEnvironment img-fluid img-thumbnail">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/environment/env-11.jpg" class="imgEnvironment img-fluid img-thumbnail">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/environment/env-12.jpg" class="imgEnvironment img-fluid img-thumbnail">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="d-flex">
+                                <div class="w-25">
+                                    <img src="img/environment/env-13.jpg" class="imgEnvironment img-fluid img-thumbnail">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/environment/env-14.jpg" class="imgEnvironment img-fluid img-thumbnail">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/environment/env-15.jpg" class="imgEnvironment img-fluid img-thumbnail">
+                                </div>
+                                <div class="w-25">
+                                    <img src="img/environment/env-16.jpg" class="imgEnvironment img-fluid img-thumbnail">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselEnvironment" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselEnvironment" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="divOptions bg-white">
+                <div>
+                    <hr class="mt-0 mb-0">
+                    <a class="text-decoration-none" data-toggle="collapse"
+                       href="#robotOptions" role="button" aria-expanded="false"
+                       aria-controls="robotOptions">
+                        <h2>Robots</h2>
+                    </a>
+                    <hr class="mt-0 mb-0">
+                </div>
+                <div id="robotOptions" class="collapse show p-2">
+                    <div class="d-flex justify-content-between pt-2">
+                        <div class="">
+                            <b>Number: </b>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="radioRobot1" name="numberOfRobot" value="1" class="custom-control-input">
+                            <label class="custom-control-label" for="radioRobot1">1</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="radioRobot2" name="numberOfRobot" value="2" class="custom-control-input">
+                            <label class="custom-control-label" for="radioRobot2">2</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input type="radio" id="radioRobot3" name="numberOfRobot" value="3" class="custom-control-input" disabled>
+                            <label class="custom-control-label" for="radioRobot3">3</label>
+                        </div>
+                    </div>
+                    <div id="carouselRobot" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner pt-1 pb-1">
+                            <div class="carousel-item active">
+                                <div class="d-flex">
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-1.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-2.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-3.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-4.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex">
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-5.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-6.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-7.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-8.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex">
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-9.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-10.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-11.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-12.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex">
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-13.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-14.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-15.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-16.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="d-flex">
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-17.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-18.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-19.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                    <div class="w-25">
+                                        <img src="img/robots/robot-20.gif" class="imgRobot img-fluid img-thumbnail">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselRobot" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselRobot" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="input-group mt-2">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-primary" type="button">Steps</button>
+                        </div>
+                        <label for="selectSteps"></label>
+                        <select class="custom-select" id="selectSteps" aria-label="Example select with button addon">
+                            <option selected>Choose...</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="divOption bg-white">
+                <div>
+                    <hr class="mt-0 mb-0">
+                    <a class="text-decoration-none" data-toggle="collapse"
+                       href="#simulationOptions" role="button" aria-expanded="false"
+                       aria-controls="simulationOptions">
+                        <h2>Simulation</h2>
+                    </a>
+                    <hr class="mt-0 mb-0">
+                </div>
+                <div id="simulationOptions" class="collapse show text-left ml-2 mr-2 mt-2">
+                    <div class="d-flex flex-wrap justify-content-between">
+                        <div>
+                            <label class="" for="customSpeed"><b>Speed :</b></label>
+                        </div>
+                        <div>
+                            <input type="range" min="0" max="100" value="50" class="custom-range" id="customSpeed">
+                        </div>
+                    </div>
+                    <div class="d-flex flex-wrap justify-content-around pb-2">
+                        <div>
+                            <button id="initializeSimulation" type="button" class="btn btn-sm btn-success">Start</button>
+                        </div>
+                        <div>
+                            <button id="stopSimulation" type="button" class="btn btn-sm btn-danger">Stop</button>
+                        </div>
+                        <div>
+                            <button id="resetSimulation" type="button" class="btn btn-sm btn-dark">Reset</button>
+                        </div>
+                        <div>
+                            <span><b>Total time : </b></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="w-100 w-md-70">
+            <section class="d-flex justify-content-between">
+                <div id="robot1" class="d-none">
+                    <div id="divImageRobot1" class=""></div>
+                    <div id="boxRobot1" class="robots">
+                        <img class="img-fluid imgBoxConversation">
+                        <div class="chatRobots d-flex justify-content-center">
+                            <p class="text-center">
+                                <span>Hi friend !</span><br>
+                                <span>I'm moving at :</span><br>
+                                <span>x = </span><span id="spanCoordinateX1">0</span>
+                                <span>&</span>
+                                <span>y = </span><span  id="spanCoordinateY1">0</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="spinner-grow d-none" role="status">
+                    <span class="sr-only">Loading...</span>
+                </div>
+                <div id="robot2" class="d-none">
+                    <div id="boxRobot2" class="robots">
+                        <img class="img-fluid imgBoxConversation">
+                        <div class="chatRobots d-flex justify-content-center">
+                            <p class="text-center">
+                                <span>Hello friend !</span><br>
+                                <span>I'm moving at :</span><br>
+                                <span>x = </span><span id="spanCoordinateX2">0</span>
+                                <span>&</span>
+                                <span>y = </span><span  id="spanCoordinateY2">0</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div id="divImageRobot2" class=""></div>
+                </div>
+            </section>
+            <section class="p-2">
+                <div id="environmentRobots" class="card">
+                    <div class="card-header text-center">
+                        <h3 class="m-0">Environment</h3>
+                    </div>
+                    <canvas id="canvasEnvironment"></canvas>
+                </div>
+                <div id="movementRobots" class="card mt-2">
+                    <div class="card-header text-center">
+                        <h3 class="m-0">Mapping</h3>
+                    </div>
+                    <canvas id="canvasMovement" class="">&nbsp;</canvas>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script type="text/javascript" src="jquery/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/popper.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="fontawesome/js/fontawesome.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/variables.js"></script>
+    <script type="text/javascript" src="js/events.js"></script>
+    <script type="text/javascript" src="js/settings.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/shapes.js"></script>
+</body>
+</html>

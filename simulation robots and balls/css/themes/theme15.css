@@ -1,0 +1,102 @@
+body{
+    background: #fff url(../../img/background/bg-15.jpg) repeat center;
+    background-size: cover;
+}
+header > svg{
+}
+header > svg > polygon{
+    fill:#fff;
+    stroke:black;
+}
+header > svg > text{
+    font-size: 1.5rem;
+    font-weight: bold;
+    fill: black;
+}
+main > section:first-child{
+    border: 1px solid #000;
+}
+hr{
+    background-color: #000;
+}
+a.text-decoration-none{
+    color: #000;
+}
+.divSettings{
+    background-color: #fff !important;
+    border-top: 1px solid #000;
+}
+.divSettings > h1{
+    color: #000;
+}
+.img-thumbnail{
+    border: 1px solid #000;
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(0,0,0)' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='rgb(0,0,0)' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.custom-control-input:checked ~ .custom-control-label::before {
+    color: #fff;
+    border-color: #000;
+    background-color: #000;
+}
+.btn-primary {
+    color: #fff;
+    background-color: rgba(0,0,0,0.85);
+    border-color: #000;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+.custom-select {
+    border: 1px solid #000;
+}
+.custom-select:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.5);
+}
+.custom-range:focus::-webkit-slider-thumb {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.custom-range:focus::-moz-range-thumb {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.custom-range:focus::-ms-thumb {
+    box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+.custom-range::-webkit-slider-thumb {
+    background-color: #000;
+    border: 0;
+}
+.card{
+    border: 1px solid #000;
+}
+.card-header{
+    background-color: #fff;
+    color: #000;
+    border-bottom-color: #000;
+}
+.spinner-grow{
+    color: #000;
+}
+.iconRobot1{
+    color: rgba(0,0,0,1);
+}
+.iconRobot2{
+    color: rgba(0,0,0,.5);
+}
+.chatRobots{
+    color: #000;
+}
+#boxRobot1 > img.imgBoxConversation{
+    content: url(../../img/box-conversation-left.png);
+}
+#boxRobot2 > img.imgBoxConversation{
+    content: url(../../img/box-conversation-right.png);
+}

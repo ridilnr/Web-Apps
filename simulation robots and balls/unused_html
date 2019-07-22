@@ -1,0 +1,132 @@
+<!--
+    <canvas id="myCanvas" width="490" height="490" style="background-color: rgb(144, 120, 3)"></canvas>
+    <h1 style="text-align: center">Simulation of Robots</h1>
+    <div style="text-align: center">
+        <label for="time">Speed :</label>
+        <input id="time" type="number" min="1" value="1" max="10">
+        <button class="initializeSimulation">
+            <span>Start</span>
+        </button>
+        <button class="stopSimulation">
+            <span>Stop</span>
+        </button>
+        <button class="resetSimulation">
+            <span>Reset</span>
+        </button>
+        <br><span>Hint: Minimum speed = 1 and Maximum speed = 10 </span>
+    </div>
+    <div id="infoSimulation">
+        <span>Info simulation: </span>
+        &lt;!&ndash; &ndash;&gt;
+        <span>&nbsp;coord. x = </span>
+        <span class="posX"></span>
+        <span>&nbsp; and &nbsp;</span>
+        <span>coord. y = </span>
+        <span class="posY"></span>
+        &lt;!&ndash; &ndash;&gt;
+        <span>&nbsp; #squares = </span>
+        <span class="countSquare"></span>
+        <span> / </span>
+        <span class="totalSquare"></span>
+        &lt;!&ndash; &ndash;&gt;
+        <span>&nbsp; path = </span>
+        <b><span class="numberPath"></span></b>
+    </div>
+-->
+
+<!--
+    <svg width="490" height="500" style="background-color: rgb(144, 120, 3)">
+        <rect x="10" y="10" height="50" width="50" style="fill: rgb(255, 255, 255)"/>
+        <rect x="70" y="10" height="50" width="50" style="fill: rgb(255, 255, 255)"/>
+        <rect x="130" y="10" height="50" width="50" style="fill: rgb(255, 255, 255)"/>
+        <rect x="190" y="10" height="50" width="50" style="fill: rgb(255, 255, 255)"/>
+        <rect x="250" y="10" height="50" width="50" style="fill: rgb(255, 255, 255)"/>
+        <rect x="310" y="10" height="50" width="50" style="fill: rgb(255, 255, 255)"/>
+        <rect x="370" y="10" height="50" width="50" style="fill: rgb(255, 255, 255)"/>
+        <rect x="430" y="10" height="50" width="50" style="fill: rgb(255, 255, 255)"/>
+        <rect x="10" y="70" height="50" width="50" style="fill: rgb(255, 255, 255)"/>
+        <rect x="70" y="70" height="50" width="50" style="fill: rgb(255, 255, 255)"/>
+        <rect x="130" y="70" height="50" width="50" style="fill: rgb(255, 255, 255)"/>
+        <rect x="190" y="70" height="50" width="50" style="fill: rgb(255, 255, 255)"/>
+        <rect x="250" y="70" height="50" width="50" style="fill: rgb(255, 255, 255)"/>
+        <rect x="310" y="70" height="50" width="50" style="fill: rgb(255, 255, 255)"/>
+        <rect x="370" y="70" height="50" width="50" style="fill: rgb(255, 255, 255)"/>
+        <rect x="430" y="70" height="50" width="50" style="fill: rgb(255, 255, 255)"/>
+    </svg>
+-->
+
+<!--
+    <script type="text/javascript" src="js/matrices_1/matrice_a.js"></script>
+    <script type="text/javascript" src="js/matrices_1/matrice_b.js"></script>
+    <script type="text/javascript" src="js/matrices_1/matrice_c.js"></script>
+    <script type="text/javascript" src="js/matrices_1/matrice_d.js"></script>
+    <script type="text/javascript" src="js/matrices_1/matrice_e.js"></script>
+    <script type="text/javascript" src="js/matrices_1/matrice_f.js"></script>
+    <script type="text/javascript" src="js/matrices_1/matrice_g.js"></script>
+    <script type="text/javascript" src="js/matrices_1/matrice_h.js"></script>
+    <script type="text/javascript" src="js/matrices_1/matrice_i.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_ab.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_ac.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_ad.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_ae.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_af.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_ag.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_ah.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_ai.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_bc.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_bd.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_be.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_bf.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_bg.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_bh.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_bi.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_cd.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_ce.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_cf.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_cg.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_ch.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_ci.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_de.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_df.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_dg.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_dh.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_di.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_ef.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_eg.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_eh.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_ei.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_fg.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_fh.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_fi.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_gh.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_gi.js"></script>
+    <script type="text/javascript" src="js/matrices_2/matrice_hi.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_abc.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_abd.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_abe.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_abf.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_abg.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_abh.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_abi.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_bcd.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_bce.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_bcf.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_bcg.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_bch.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_bci.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_cde.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_cdf.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_cdg.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_cdh.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_cdi.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_def.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_deg.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_deh.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_dei.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_efg.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_efh.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_efi.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_fgh.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_fgi.js"></script>
+    <script type="text/javascript" src="js/matrices_3/matrice_ghi.js"></script>
+-->
